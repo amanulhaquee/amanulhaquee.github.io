@@ -1,0 +1,1054 @@
+{
+  "schema_version": "1.0.0",
+  "document_type": "academic_project_portfolio",
+  "machine_readable": true,
+  "generated_at_utc": "2026-06-13T19:22:46.645031+00:00",
+  "title": "Academic Project Portfolio",
+  "subtitle": "Bachelor of Architecture and Master of Planning",
+  "person": {
+    "name": "Amanul Haque",
+    "academic_programmes": [
+      "Bachelor of Architecture",
+      "Master of Planning (Urban and Regional Planning)"
+    ],
+    "institution": "Faculty of Architecture and Ekistics, Jamia Millia Islamia",
+    "locations_associated": [
+      "New Delhi",
+      "Gorakhpur",
+      "Delhi NCR"
+    ]
+  },
+  "portfolio_summary": {
+    "short_summary": "A consolidated academic portfolio covering architectural documentation, professional practice study, housing policy, urban poverty research, disaster risk reduction, final architectural thesis development, GIS, remote sensing, and regional land-use modelling.",
+    "academic_progression": [
+      "The early Bachelor of Architecture work focused on architectural documentation, heritage interpretation, and built-form analysis.",
+      "The middle Bachelor of Architecture work expanded into architect/practice studies, case-study methods, housing history, public housing policy, and EWS housing in Delhi.",
+      "The final Bachelor of Architecture thesis developed a Downtown cum City Centre for Gorakhpur as a mixed-use, public-realm, and urban design intervention.",
+      "The Master of Planning work moved into field-based urban research, disaster management planning, GIS, remote sensing, and scenario-based regional land-use modelling."
+    ],
+    "core_themes": [
+      "Architecture and built-form documentation",
+      "Heritage and conservation",
+      "Professional architectural practice",
+      "Public space and placemaking",
+      "EWS housing and housing policy",
+      "Urban poverty and housing quality",
+      "Disaster risk reduction",
+      "Campus resilience planning",
+      "Remote sensing and GIS",
+      "Urban growth modelling",
+      "Transport-land-use interaction",
+      "Regional planning"
+    ]
+  },
+  "source_documents": [
+    {
+      "source_id": "src_barch_2_parinirvana_stupa",
+      "file_name": "2nd yr Dissertaion(Amanul haque).pdf",
+      "document_title": "Parinirvana Stupa, Kushinagar",
+      "academic_stage": "B.Arch. 2nd Year",
+      "year": "2020-2021",
+      "status": "used"
+    },
+    {
+      "source_id": "src_barch_3_amit_murao",
+      "file_name": "AmanulHaque_3rd yr Dissertation Report.pdf",
+      "document_title": "Indian Architect: Ar. Amit Murao",
+      "academic_stage": "B.Arch. 3rd Year",
+      "year": "2021-2022",
+      "status": "used"
+    },
+    {
+      "source_id": "src_barch_4_ews_housing",
+      "file_name": "AmanulHaque_4th yr Seminar.pdf",
+      "document_title": "Eighth Builder of Delhi: Through the Perception of EWS Housing from 1950-1990",
+      "academic_stage": "B.Arch. 4th Year",
+      "year": "2022-2023",
+      "status": "used"
+    },
+    {
+      "source_id": "src_barch_5_downtown_city_centre",
+      "file_name": "AmanulHaque_thesis-3.pdf",
+      "document_title": "A Downtown cum City Centre, Gorakhpur, Uttar Pradesh",
+      "academic_stage": "B.Arch. 5th Year",
+      "year": "2023-2024",
+      "status": "used_as_final_replacement_for_pre_synopsis"
+    },
+    {
+      "source_id": "src_barch_pre_synopsis_superseded",
+      "file_name": "Amanul Haque - B. Arch. Thesis Pre-Synopsis Template.docx",
+      "document_title": "B.Arch. Thesis Pre-Synopsis Template",
+      "academic_stage": "B.Arch. Final Year",
+      "year": "2023-2024",
+      "status": "superseded_by_final_thesis",
+      "note": "This source was used in the earlier draft but has been replaced by the final thesis document on Downtown cum City Centre, Gorakhpur."
+    },
+    {
+      "source_id": "src_mplan_sem1_govindpuri",
+      "file_name": "Amanul Haque.pdf",
+      "document_title": "Assessing the Impact of Urban Poverty on Housing Quality in Govindpuri, Delhi",
+      "academic_stage": "M.Plan. Semester 1",
+      "year": "2024-2025",
+      "status": "used"
+    },
+    {
+      "source_id": "src_mplan_sem3_disaster_jmi",
+      "file_name": "Amanul Haque Dissertation.pdf",
+      "document_title": "Disaster Management Plan for University Campus: A Case of Jamia Millia Islamia",
+      "academic_stage": "M.Plan. Semester 3",
+      "year": "2025-2026",
+      "status": "used"
+    },
+    {
+      "source_id": "src_mplan_thesis_rrts",
+      "file_name": "Amanul_Haque_Thesis_Report_2025-26.pdf",
+      "document_title": "Modelling the Regional Land Use Impact of a Rapid Rail Transit Corridor: The Case of Delhi-Meerut RRTS",
+      "academic_stage": "M.Plan. Thesis",
+      "year": "2024-2026",
+      "status": "used"
+    }
+  ],
+  "timeline": [
+    {
+      "project_id": "barch_2_parinirvana_stupa",
+      "academic_stage": "B.Arch. 2nd Year",
+      "year": "2020-2021",
+      "title": "Parinirvana Stupa, Kushinagar"
+    },
+    {
+      "project_id": "barch_3_amit_murao",
+      "academic_stage": "B.Arch. 3rd Year",
+      "year": "2021-2022",
+      "title": "Indian Architect: Ar. Amit Murao"
+    },
+    {
+      "project_id": "barch_4_ews_housing_delhi",
+      "academic_stage": "B.Arch. 4th Year",
+      "year": "2022-2023",
+      "title": "Eighth Builder of Delhi: Through the Perception of EWS Housing from 1950-1990"
+    },
+    {
+      "project_id": "barch_5_downtown_city_centre_gorakhpur",
+      "academic_stage": "B.Arch. 5th Year",
+      "year": "2023-2024",
+      "title": "A Downtown cum City Centre, Gorakhpur, Uttar Pradesh"
+    },
+    {
+      "project_id": "mplan_sem1_govindpuri_housing_quality",
+      "academic_stage": "M.Plan. Semester 1",
+      "year": "2024-2025",
+      "title": "Assessing the Impact of Urban Poverty on Housing Quality in Govindpuri, Delhi"
+    },
+    {
+      "project_id": "mplan_sem3_jmi_disaster_management_plan",
+      "academic_stage": "M.Plan. Semester 3",
+      "year": "2025-2026",
+      "title": "Disaster Management Plan for University Campus: A Case of Jamia Millia Islamia"
+    },
+    {
+      "project_id": "mplan_thesis_delhi_meerut_rrts_land_use",
+      "academic_stage": "M.Plan. Thesis",
+      "year": "2024-2026",
+      "title": "Modelling the Regional Land Use Impact of a Rapid Rail Transit Corridor: The Case of Delhi-Meerut RRTS"
+    }
+  ],
+  "projects": [
+    {
+      "project_id": "barch_2_parinirvana_stupa",
+      "title": "Parinirvana Stupa, Kushinagar",
+      "academic_stage": "Bachelor of Architecture, 2nd Year",
+      "semester_or_year": "2020-2021",
+      "project_type": "Dissertation / Heritage and Architectural Documentation",
+      "location_or_study_area": "Kushinagar, Uttar Pradesh",
+      "source_id": "src_barch_2_parinirvana_stupa",
+      "source_file_name": "2nd yr Dissertaion(Amanul haque).pdf",
+      "guide_or_supervisor": "Ar. Sana Zehra",
+      "abstract": [
+        "This dissertation studied the architectural features of the Parinirvana Stupa at Kushinagar, an important Buddhist heritage site associated with the Mahaparinirvana of Gautam Buddha. The project examined the stupa as a religious, cultural, historical, and architectural object.",
+        "The study focused on the position of the monument within the Buddhist pilgrimage landscape of Kushinagar and examined how the circular base, dome, terrace, orientation, symbolic components, context, climate, access, and surrounding religious setting contribute to the experience of the site.",
+        "The project explored Buddhist architectural vocabulary such as the anda, medhi, circumambulatory movement, orientation, form, facade, and religious symbolism."
+      ],
+      "aim_or_purpose": "To study the architectural features of the Parinirvana Stupa, Kushinagar.",
+      "work_done": [
+        "Studied the history, location, accessibility, context, climate, and architectural setting of Parinirvana Stupa.",
+        "Analysed the form, facade, construction material, construction technique, architectural elements, orientation, planning, and built-unbuilt relationship.",
+        "Conducted site-based documentation through observation, photography, and contextual study.",
+        "Examined the conservation relevance of the structure and its long-term continuity as a Buddhist heritage site.",
+        "Prepared a dissertation report combining historical research, architectural interpretation, drawings, photographs, and final conclusions."
+      ],
+      "tools_technologies_stack": [
+        "Site observation",
+        "Photographic survey",
+        "Built-form reading",
+        "Visual documentation",
+        "Literature review",
+        "Case-study method",
+        "Primary observation",
+        "Secondary data collection",
+        "Google Maps",
+        "Contextual location study",
+        "Accessibility mapping",
+        "Heritage conservation analysis",
+        "Climate-context analysis",
+        "Report writing"
+      ],
+      "methods": [
+        "Architectural documentation",
+        "Contextual analysis",
+        "Historic interpretation",
+        "Climate study",
+        "Symbolic architectural analysis"
+      ],
+      "outputs": [
+        "Dissertation report",
+        "Architectural analysis",
+        "Site/context documentation",
+        "Historical and conservation interpretation"
+      ],
+      "learning_outcome": "The project established the foundation for architectural research by connecting history, culture, built form, climate, site context, and conservation. It strengthened the ability to read a building not only as a physical structure but also as a cultural artefact shaped by ritual, memory, material, and place.",
+      "keywords": [
+        "heritage architecture",
+        "Buddhist architecture",
+        "stupa",
+        "Kushinagar",
+        "conservation",
+        "architectural documentation"
+      ]
+    },
+    {
+      "project_id": "barch_3_amit_murao",
+      "title": "Indian Architect: Ar. Amit Murao",
+      "academic_stage": "Bachelor of Architecture, 3rd Year",
+      "semester_or_year": "2021-2022",
+      "project_type": "Dissertation / Architect and Practice Study",
+      "location_or_study_area": "Aashray Design Consultants Pvt. Ltd. and selected case studies",
+      "source_id": "src_barch_3_amit_murao",
+      "source_file_name": "AmanulHaque_3rd yr Dissertation Report.pdf",
+      "guide_or_supervisor": "Ar. Yogesh Bhardwaj",
+      "abstract": [
+        "This dissertation examined the professional journey, design philosophy, working process, and selected architectural projects of Ar. Amit Murao, partner architect and senior design professional at Aashray Design Consultants Pvt. Ltd.",
+        "The study explored how a contemporary Indian architect works across multiple project typologies including residences, group housing, healthcare, institutional, commercial, and mixed-use developments.",
+        "Major case studies included Residence: The Nest in Gurugram, Ambedkar Puram Yojna in Kanpur, and Meditest Hospital in Kenya. Through these cases, the study examined plans, sections, views, design analysis, and user-related concerns."
+      ],
+      "work_done": [
+        "Prepared a biographical and professional profile of Ar. Amit Murao and Aashray Design Consultants.",
+        "Studied the firm's architectural, master planning, interior design, project management, and landscape design work.",
+        "Analysed selected projects through drawings, views, design intent, planning logic, and typology-specific observations.",
+        "Used interview responses to understand client-architect relationships, professional challenges, green building issues, and future skills required for architects.",
+        "Prepared a structured dissertation with case-study chapters, annexure, questionnaire, bibliography, and conclusion."
+      ],
+      "tools_technologies_stack": [
+        "Project drawings",
+        "Floor plan analysis",
+        "Section analysis",
+        "Architect interview",
+        "User-oriented building study",
+        "Firm profile review",
+        "Case-study comparison",
+        "Design philosophy mapping",
+        "Professional practice evaluation",
+        "Visual plates",
+        "Questionnaire annexure",
+        "Architectural writing"
+      ],
+      "methods": [
+        "Architect profile study",
+        "Firm profile study",
+        "Interview-based research",
+        "Project case-study analysis",
+        "Typology comparison"
+      ],
+      "case_studies": [
+        "Residence: The Nest, Gurugram",
+        "Ambedkar Puram Yojna, Kanpur",
+        "Meditest Hospital, Kenya"
+      ],
+      "outputs": [
+        "Architect/practice dissertation",
+        "Project case-study analysis",
+        "Interview annexure",
+        "Professional practice reflection"
+      ],
+      "learning_outcome": "The project created a bridge between academic architecture and professional architectural practice. It helped develop an understanding of how architects translate design philosophy into built projects, how firms manage different scales of work, and how practical constraints influence design delivery.",
+      "keywords": [
+        "architect study",
+        "professional practice",
+        "case study",
+        "architectural philosophy",
+        "Aashray Design Consultants"
+      ]
+    },
+    {
+      "project_id": "barch_4_ews_housing_delhi",
+      "title": "Eighth Builder of Delhi: Through the Perception of EWS Housing from 1950-1990",
+      "academic_stage": "Bachelor of Architecture, 4th Year",
+      "semester_or_year": "2022-2023",
+      "project_type": "Seminar Report / Housing Policy and Urban History",
+      "location_or_study_area": "Delhi, with case study focus on Rohini",
+      "source_id": "src_barch_4_ews_housing",
+      "source_file_name": "AmanulHaque_4th yr Seminar.pdf",
+      "guide_or_supervisor": "Ar. Shagufta Khan; Ar. Riyazul Samad Binmohammad",
+      "abstract": [
+        "This seminar studied the role of the Delhi Development Authority and related public agencies in shaping Economically Weaker Section housing in Delhi from the 1950s to the 1990s.",
+        "The title, Eighth Builder of Delhi, positioned DDA as a major institutional actor in the post-independence growth of Delhi. The study investigated how housing for low-income groups emerged through land acquisition, master planning, slum clearance, resettlement, and plotted or group-housing typologies.",
+        "The work traced Delhi's planning chronology from the late colonial period to the first, second, and third Master Plans of Delhi. Rohini was selected as a case study to evaluate planned development, EWS housing supply, facility standards, land-use distribution, housing characteristics, pricing, allotment, and people's perception."
+      ],
+      "work_done": [
+        "Studied the evolution of EWS housing in Delhi between 1950 and 1990.",
+        "Analysed the role of DDA in land management, housing supply, master planning, and resettlement.",
+        "Reviewed policies and schemes including the Delhi Development Act, Slum Areas Act, JJ resettlement, PMAY, and other affordable housing frameworks.",
+        "Conducted a case-study analysis of Rohini, including location, accessibility, project aspects, survey methodology, housing characteristics, and people's perception.",
+        "Prepared tables and figures related to land acquisition, housing supply, EWS supply, land use, pricing, and phase-wise development."
+      ],
+      "tools_technologies_stack": [
+        "Master Plan of Delhi analysis",
+        "DDA records",
+        "DUSIB data",
+        "Land acquisition records",
+        "Housing-supply reports",
+        "Planning chronology",
+        "Institutional analysis",
+        "Settlement history",
+        "Housing typology study",
+        "Location maps",
+        "Spatial distribution maps",
+        "Land-use tables",
+        "Demographic interpretation",
+        "Household survey/perception data"
+      ],
+      "methods": [
+        "Policy analysis",
+        "Urban history study",
+        "Case-study research",
+        "Spatial/tabular analysis",
+        "Perception analysis"
+      ],
+      "case_study_area": "Rohini, Delhi",
+      "outputs": [
+        "Seminar report",
+        "Planning chronology",
+        "Policy and scheme analysis",
+        "Rohini case-study evaluation",
+        "EWS housing supply interpretation"
+      ],
+      "learning_outcome": "This seminar developed a planning-oriented understanding of housing as an institutional, social, economic, and spatial problem. It shifted the focus from isolated architectural design to the larger systems of land, policy, affordability, allotment, infrastructure, and urban governance.",
+      "keywords": [
+        "EWS housing",
+        "DDA",
+        "Delhi planning",
+        "Rohini",
+        "public housing",
+        "housing policy"
+      ]
+    },
+    {
+      "project_id": "barch_5_downtown_city_centre_gorakhpur",
+      "title": "A Downtown cum City Centre, Gorakhpur, Uttar Pradesh",
+      "academic_stage": "Bachelor of Architecture, 5th Year",
+      "semester_or_year": "2023-2024",
+      "project_type": "Final Thesis / Urban Design and Mixed-Use Architectural Design",
+      "location_or_study_area": "Gorakhpur, Uttar Pradesh",
+      "source_id": "src_barch_5_downtown_city_centre",
+      "source_file_name": "AmanulHaque_thesis-3.pdf",
+      "guide_or_supervisor": "Ar. Kulsum Fatima",
+      "replaces_previous_project_section": {
+        "replaced_source_id": "src_barch_pre_synopsis_superseded",
+        "replacement_reason": "The earlier portfolio section was based on a pre-synopsis document. This final thesis section is based on the final submitted B.Arch. thesis report."
+      },
+      "abstract": [
+        "This final-year Bachelor of Architecture thesis developed a Downtown cum City Centre for Gorakhpur, Uttar Pradesh. The thesis was guided by the need to improve the use of an urban void in the core of the city and transform it into a self-financing commercial, recreational, social, and cultural hub.",
+        "The project aimed to give Gorakhpur a new urban identity by introducing an active city-level destination that could support retail, business, public gathering, leisure, and community interaction.",
+        "The thesis approached the city centre as more than a shopping complex. It treated the city centre as an amalgamation of commercial, social, cultural, recreational, and entertainment activities, where public space, streets, plazas, open areas, lake-edge recreation, pedestrian movement, and mixed-use functions work together.",
+        "The research and design process included literature study on public spaces, city-centre evolution, office spaces, retail planning, parking standards, and inclusive public realm. Case studies included Salt Lake City Centre, Kolkata; Connaught Place, New Delhi; and Bhikaji Cama Place, New Delhi.",
+        "The site study covered location, climate, major roads, street sections, services, vegetation, noise, site context, and SWOT analysis. The final concept emphasized placemaking, connecting green, active frontage, compact mixed-use development, climate responsiveness, and accessible urban public space."
+      ],
+      "rationale": "Gorakhpur provides an opportunity to develop urban vocabulary, street patterns, streetscapes, plazas, and a city-centre layout. The project addresses the need for sustainable, connected, and liveable city centres and aims to benefit both city-centre residents and the larger urban community.",
+      "aim": "To improve the use of an urban void situated in the core of the city, create a self-financing commercial hub in the long term, compensate for recreational and commercial needs of the public, and impart a new urban identity to Gorakhpur.",
+      "objectives": [
+        "Develop the project as a landmark and as the city's social and cultural hub.",
+        "Provide a new morphology for community space in the city.",
+        "Connect the existing city to the proposed city extension.",
+        "Provide recreational, commercial, retail, and lake-edge activities.",
+        "Create a breathing space in dense urban morphology.",
+        "Consolidate high-value underutilized core-area land through community space.",
+        "Promote fringe-street development to create continuous and active street frontage.",
+        "Analyse the existing context and identify issues and opportunities for improved surroundings.",
+        "Increase socio-economic growth of the city.",
+        "Create public and semi-public realms to attract people.",
+        "Create a node for commercial, business, cultural, and social activities.",
+        "Create a hybrid between a business hub and commercial centre at a reduced scale."
+      ],
+      "methodology": [
+        "Defined aim and research direction.",
+        "Selected the site/locality.",
+        "Documented the site through site visits, maps, photographs, and illustrations.",
+        "Prepared analyses such as land use, demographic data, population growth, physical infrastructure, socio-economic conditions, architectural character, and planning patterns.",
+        "Compiled and analysed data.",
+        "Conducted case studies.",
+        "Evolved design concept.",
+        "Developed design proposal."
+      ],
+      "scope": [
+        "Create attractive, inclusive, durable, and adaptable places to work, shop, and visit.",
+        "Design energy-efficient buildings.",
+        "Support healthy city-centre planning and sustainable development.",
+        "Respect the physical, social, economic, and contextual character of the site.",
+        "Create an accessible and well-connected city centre.",
+        "Support higher-density and mixed-use compact urban development.",
+        "Develop well-designed open spaces and a high-quality public realm."
+      ],
+      "limitations": [
+        "The study focuses on a specific downtown area/city centre and may not be directly applicable to other urban contexts.",
+        "The research is based on data collected during a specific time period.",
+        "Findings depend on the availability and reliability of data sources.",
+        "Changing economic, policy, social, cultural, technological, and infrastructural conditions may affect generalizability.",
+        "The study may not fully capture all stakeholder perspectives."
+      ],
+      "work_done": [
+        "Defined the rationale, aim, objectives, methodology, scope, and limitations of the Downtown cum City Centre thesis.",
+        "Studied the meaning and evolution of city centres through public-space history, including the Greek Agora, Roman Forum, medieval market squares, Renaissance plazas, modern public spaces, and contemporary malls.",
+        "Prepared literature studies on office-space standards, retail-space planning, supermarket and shop dimensions, parking layouts, car turning radii, and ergonomic requirements using architectural data references.",
+        "Analysed Salt Lake City Centre as a mixed-use, cluster-planned public commercial space that combines retail, offices, food courts, entertainment, banquet functions, open plazas, and a central kund-like public space.",
+        "Analysed Connaught Place for radial planning, central green space, colonnaded commercial form, street character, circulation, land use, built-unbuilt relationship, street sections, and shadow analysis.",
+        "Analysed Bhikaji Cama Place as a district centre with commercial, office, restaurant, open-courtyard, circulation, green-space, service, footpath, vendor, parking, and public-amenity conditions.",
+        "Conducted site study for Gorakhpur, including climate graph, average temperature, wind rose, major roads, street sections, service locations, electricity poles, drainage, vegetation, noise mapping, and surrounding context such as Nauka Vihar, museums, hospitals, DDU University, planetarium, and auditorium.",
+        "Developed the design concept, vision statement, placemaking approach, design principles, design challenges, and solutions such as separate lanes, city-circle organization, green connectivity, and climate-resilience strategies."
+      ],
+      "case_studies": [
+        {
+          "name": "Salt Lake City Centre",
+          "location": "Kolkata, West Bengal",
+          "focus": [
+            "mixed-use commercial public space",
+            "zoning",
+            "circulation",
+            "open plaza",
+            "program analysis",
+            "city-centre character"
+          ]
+        },
+        {
+          "name": "Connaught Place",
+          "location": "New Delhi",
+          "focus": [
+            "radial planning",
+            "central green space",
+            "commercial colonnades",
+            "street sections",
+            "land-use mapping",
+            "shadow analysis"
+          ]
+        },
+        {
+          "name": "Bhikaji Cama Place",
+          "location": "New Delhi",
+          "focus": [
+            "district centre",
+            "commercial and office use",
+            "circulation",
+            "built-unbuilt relationship",
+            "amenity mapping",
+            "public-realm conditions"
+          ]
+        }
+      ],
+      "site_study_components": [
+        "Location",
+        "Climate study",
+        "Climate graph",
+        "Average temperature",
+        "Wind rose diagram",
+        "Major roads",
+        "Street sections",
+        "Service locations",
+        "Electricity poles",
+        "Drainage",
+        "Vegetation map",
+        "Noise map",
+        "Surrounding context",
+        "SWOT analysis"
+      ],
+      "concept_components": [
+        "Design concept",
+        "Vision statement",
+        "Connecting green",
+        "Placemaking",
+        "Design principles",
+        "Design challenges and solutions",
+        "Separate lane strategy",
+        "City circle organization",
+        "Climate resilience methods"
+      ],
+      "tools_technologies_stack": [
+        "Urban design programming",
+        "Mixed-use planning",
+        "Commercial hub design",
+        "Office planning standards",
+        "Retail planning standards",
+        "Parking standards",
+        "Public-realm design",
+        "Site selection",
+        "Land-use analysis",
+        "Demographic data analysis",
+        "Population growth analysis",
+        "Physical infrastructure study",
+        "Socio-economic context study",
+        "Architectural character study",
+        "Planning-pattern analysis",
+        "Case-study comparison",
+        "Site visits",
+        "Maps",
+        "Photographs",
+        "Illustrations",
+        "Climate study",
+        "Wind rose analysis",
+        "Service mapping",
+        "Vegetation mapping",
+        "Noise mapping",
+        "SWOT analysis",
+        "Context mapping",
+        "Zoning diagrams",
+        "Circulation diagrams",
+        "Street-section analysis",
+        "Programme analysis",
+        "Sustainable development references",
+        "Climate-responsive design methods",
+        "UP Building Bye-Laws",
+        "FAR and ground coverage considerations"
+      ],
+      "methods": [
+        "Literature study",
+        "Public-space theory review",
+        "City-centre evolution study",
+        "Case-study analysis",
+        "Site documentation",
+        "Climate and context analysis",
+        "SWOT analysis",
+        "Concept evolution",
+        "Urban design and architectural design proposal"
+      ],
+      "outputs": [
+        "Final B.Arch. thesis report",
+        "City-centre concept and design framework",
+        "Literature study",
+        "Case-study analysis",
+        "Site analysis",
+        "SWOT analysis",
+        "Design concept and principles",
+        "Urban design proposal direction"
+      ],
+      "learning_outcome": "The final thesis strengthened the ability to move from urban research and precedent analysis into a complete architectural design proposition. It developed competence in combining public-space theory, site analysis, mixed-use programming, commercial viability, mobility, climate response, green connectivity, and placemaking into a city-scale architectural intervention.",
+      "keywords": [
+        "Downtown",
+        "City Centre",
+        "Gorakhpur",
+        "mixed-use development",
+        "public realm",
+        "placemaking",
+        "urban design",
+        "retail planning",
+        "office planning",
+        "commercial hub",
+        "climate-responsive design"
+      ]
+    },
+    {
+      "project_id": "mplan_sem1_govindpuri_housing_quality",
+      "title": "Assessing the Impact of Urban Poverty on Housing Quality in Govindpuri, Delhi",
+      "academic_stage": "Master of Planning (Urban and Regional Planning), Semester 1",
+      "semester_or_year": "2024-2025",
+      "project_type": "Dissertation / Urban Poverty and Housing Quality Study",
+      "location_or_study_area": "Govindpuri, Kalkaji, Delhi",
+      "source_id": "src_mplan_sem1_govindpuri",
+      "source_file_name": "Amanul Haque.pdf",
+      "guide_or_supervisor": "Moushila De",
+      "abstract": [
+        "This dissertation investigated how urban poverty affects housing quality in Govindpuri, Kalkaji, a dense low-income settlement in Delhi.",
+        "The project examined the relationship between socio-economic status, housing condition, infrastructure access, sanitation, tenure insecurity, household income, and public-sector housing interventions.",
+        "The research used a mixed-method approach combining primary field inquiry, semi-structured interviews, on-site observation, and secondary data from government reports, census material, and academic literature."
+      ],
+      "work_done": [
+        "Studied the link between urban poverty, housing quality, and socio-economic vulnerability in Govindpuri.",
+        "Conducted primary data collection through interviews, site observations, and settlement-level condition assessment.",
+        "Analysed housing evolution from makeshift structures to semi-pucca and pucca houses.",
+        "Reviewed housing policies, rehabilitation models, and EWS-focused public interventions.",
+        "Recommended subsidized housing, secure tenure, in-situ redevelopment, green construction, financial empowerment, micro-loans, skill development, participatory planning, and governance reforms."
+      ],
+      "tools_technologies_stack": [
+        "Semi-structured interviews",
+        "Site observation",
+        "Settlement walks",
+        "Visual assessment of housing conditions",
+        "Census data",
+        "Government reports",
+        "Policy documents",
+        "Academic literature",
+        "Housing scheme review",
+        "Socio-economic profiling",
+        "LULC interpretation",
+        "Amenity assessment",
+        "Housing evolution study",
+        "GIS-based intervention targeting",
+        "Mixed-use zoning principles",
+        "High-density housing planning",
+        "PMAY",
+        "EWS rehabilitation",
+        "Tenure security analysis"
+      ],
+      "methods": [
+        "Mixed-method research",
+        "Primary field inquiry",
+        "Secondary research",
+        "Socio-economic analysis",
+        "Policy review",
+        "Housing condition assessment"
+      ],
+      "recommendations": [
+        "Subsidized housing schemes",
+        "Secure tenure",
+        "In-situ redevelopment",
+        "Green and climate-resilient building practices",
+        "Financial empowerment",
+        "Micro-loans",
+        "Skill development programmes",
+        "Community participation",
+        "Governance reforms",
+        "GIS-based targeting of interventions"
+      ],
+      "outputs": [
+        "Dissertation report",
+        "Housing-quality analysis",
+        "Socio-economic interpretation",
+        "Policy recommendations"
+      ],
+      "learning_outcome": "The project strengthened the ability to analyse poverty as a spatial and housing-quality issue. It showed how affordability, income, public infrastructure, policy delivery, and community participation directly affect the quality of urban life in informal and low-income settlements.",
+      "keywords": [
+        "urban poverty",
+        "housing quality",
+        "Govindpuri",
+        "EWS housing",
+        "PMAY",
+        "in-situ redevelopment",
+        "tenure security"
+      ]
+    },
+    {
+      "project_id": "mplan_sem3_jmi_disaster_management_plan",
+      "title": "Disaster Management Plan for University Campus: A Case of Jamia Millia Islamia",
+      "academic_stage": "Master of Planning (Urban and Regional Planning), Semester 3",
+      "semester_or_year": "2025-2026",
+      "project_type": "Dissertation / Disaster Risk Reduction and Campus Planning",
+      "location_or_study_area": "Jamia Millia Islamia, New Delhi",
+      "source_id": "src_mplan_sem3_disaster_jmi",
+      "source_file_name": "Amanul Haque Dissertation.pdf",
+      "guide_or_supervisor": "Prof. Hina Zia; Arshiya Iftekhar Ahmed",
+      "abstract": [
+        "This dissertation developed a comprehensive Disaster Management Plan for Jamia Millia Islamia University Campus.",
+        "The project responded to the vulnerability of university campuses as dense, multi-functional, and continuously active environments. JMI, located in South-East Delhi and within Seismic Zone IV, faces risks from earthquakes, fire, flooding, heat waves, industrial hazards, crowd-related emergencies, and infrastructure failures.",
+        "The study used a mixed-method framework involving hazard profiling, vulnerability analysis, spatial risk mapping, primary surveys, and Rapid Visual Screening of campus buildings using FEMA P-154 principles."
+      ],
+      "work_done": [
+        "Identified major natural and man-made hazards affecting the JMI campus.",
+        "Assessed physical, social, and infrastructural vulnerability across campus spaces.",
+        "Prepared hazard and risk mapping logic for waterlogging, fire safety, seismic risk, crowd concentration, and critical infrastructure.",
+        "Conducted primary surveys with students and staff to assess awareness and readiness.",
+        "Applied Rapid Visual Screening logic to identify buildings requiring urgent safety intervention.",
+        "Proposed institutional arrangements, preparedness measures, mitigation measures, and emergency response systems."
+      ],
+      "tools_technologies_stack": [
+        "Hazard identification",
+        "Vulnerability assessment",
+        "Risk mapping",
+        "Preparedness assessment",
+        "Emergency response planning",
+        "Questionnaire survey",
+        "Awareness assessment",
+        "Readiness evaluation",
+        "User perception analysis",
+        "Rapid Visual Screening",
+        "FEMA P-154 principles",
+        "Structural vulnerability indicators",
+        "Fire safety audit logic",
+        "Retrofitting recommendations",
+        "Campus mapping",
+        "Evacuation route analysis",
+        "Assembly-area planning",
+        "Critical infrastructure mapping",
+        "Waterlogging-zone identification",
+        "Command structure planning",
+        "Volunteer corps planning",
+        "Control room planning",
+        "Communication protocol design"
+      ],
+      "methods": [
+        "Hazard profiling",
+        "Vulnerability analysis",
+        "Spatial risk mapping",
+        "Primary survey",
+        "Rapid Visual Screening",
+        "Institutional planning"
+      ],
+      "risk_focus_areas": [
+        "Earthquake",
+        "Fire",
+        "Flooding",
+        "Heat waves",
+        "Industrial hazards",
+        "Crowd-related emergencies",
+        "Infrastructure failure"
+      ],
+      "recommendations": [
+        "Awareness programmes",
+        "Signage",
+        "Training",
+        "Mock drills",
+        "Structural retrofitting",
+        "Safety upgrades",
+        "Regular audits",
+        "Emergency command structure",
+        "Trained personnel",
+        "Volunteer corps",
+        "Control room"
+      ],
+      "outputs": [
+        "Disaster Management Plan framework",
+        "Hazard profile",
+        "Vulnerability profile",
+        "Risk mapping analysis",
+        "Preparedness and mitigation recommendations",
+        "Institutional arrangement"
+      ],
+      "learning_outcome": "The project developed practical competence in disaster risk reduction, institutional planning, campus-scale risk mapping, and resilience-building. It showed how planning can move beyond land use and infrastructure into safety, preparedness, behavioural awareness, and emergency governance.",
+      "keywords": [
+        "disaster management",
+        "campus planning",
+        "JMI",
+        "risk mapping",
+        "vulnerability assessment",
+        "FEMA P-154",
+        "preparedness"
+      ]
+    },
+    {
+      "project_id": "mplan_thesis_delhi_meerut_rrts_land_use",
+      "title": "Modelling the Regional Land Use Impact of a Rapid Rail Transit Corridor: The Case of Delhi-Meerut RRTS",
+      "academic_stage": "Master of Planning (Urban and Regional Planning), Final Thesis",
+      "semester_or_year": "2024-2026",
+      "project_type": "Thesis / Remote Sensing, GIS, and Urban Growth Modelling",
+      "location_or_study_area": "Delhi-Ghaziabad-Meerut Regional Corridor",
+      "source_id": "src_mplan_thesis_rrts",
+      "source_file_name": "Amanul_Haque_Thesis_Report_2025-26.pdf",
+      "guide_or_supervisor": "Prof. Dr. Antarin Chakrabarty",
+      "abstract": [
+        "This thesis examined whether the Delhi-Meerut Regional Rapid Transit System creates a measurable additional impact on future built-up growth or whether land-use expansion mainly follows existing development pressure.",
+        "The corridor links Delhi, Ghaziabad, Muradnagar, Modinagar, and Meerut while already being influenced by the Delhi-Meerut Expressway, highways, railway lines, settlements, industries, and strong development pressure.",
+        "The study used remote sensing, GIS-based analysis, and the FUTURES urban growth modelling framework. Landsat satellite images for 2015, 2020, and 2025 were used for land-use classification and built-up extraction. Census population data from 1971 to 2011 and OpenStreetMap vector layers such as roads, water bodies, land use, and settlements were used to prepare spatial datasets and predictor variables.",
+        "Two scenarios were developed. Scenario 1 modelled future built-up growth without RRTS influence using road density, travel time to cities, distance from major cities, and development pressure. Scenario 2 included the same variables along with RRTS station distance, RRTS corridor distance, and improved travel time based on a corridor speed of 180 kmph.",
+        "The findings indicated that the additional impact of the RRTS on future built-up growth is limited or marginal within both 2.5 km and 5 km corridor buffers."
+      ],
+      "research_question_focus": "Whether the Delhi-Meerut RRTS creates measurable additional future built-up growth compared with existing development trends along the corridor.",
+      "work_done": [
+        "Defined the research problem around transport infrastructure, accessibility, and regional land-use transformation.",
+        "Prepared land-use and built-up datasets using Landsat images for 2015, 2020, and 2025.",
+        "Used Census population data and OpenStreetMap vector layers to prepare regional spatial datasets.",
+        "Developed predictor variables including road density, travel time, distance from major cities, development pressure, distance from RRTS stations, and distance from the RRTS corridor.",
+        "Applied the FUTURES modelling framework using demand, potential, and patch-growing algorithm concepts.",
+        "Compared with-RRTS and without-RRTS future-growth scenarios for multiple future years.",
+        "Interpreted findings in relation to corridor planning, transit-oriented development, compact growth, redevelopment, and land-use regulation."
+      ],
+      "tools_technologies_stack": [
+        "Remote sensing",
+        "Landsat imagery",
+        "Land-use classification",
+        "Built-up extraction",
+        "Change detection",
+        "GIS analysis",
+        "Spatial dataset preparation",
+        "Buffer analysis",
+        "Distance raster generation",
+        "Road-density mapping",
+        "Travel-time modelling",
+        "Corridor influence analysis",
+        "FUTURES urban growth model",
+        "DEMAND sub-model",
+        "Potential sub-model",
+        "Patch-Growing Algorithm",
+        "Scenario simulation",
+        "Scenario comparison",
+        "Validation against satellite imagery",
+        "Google Earth reference images",
+        "Census population data 1971-2011",
+        "OpenStreetMap vector layers"
+      ],
+      "methods": [
+        "Remote sensing analysis",
+        "GIS-based spatial modelling",
+        "Urban growth modelling",
+        "Scenario-based simulation",
+        "Transport-land-use interaction analysis",
+        "Validation and reliability assessment"
+      ],
+      "data_sources": [
+        "Landsat satellite images for 2015, 2020, and 2025",
+        "Census population data from 1971 to 2011",
+        "OpenStreetMap roads",
+        "OpenStreetMap water bodies",
+        "OpenStreetMap land use",
+        "OpenStreetMap settlements",
+        "Delhi-Meerut RRTS corridor and station datasets"
+      ],
+      "model_scenarios": [
+        {
+          "scenario_id": "scenario_1_without_rrts",
+          "description": "Future built-up growth without RRTS influence.",
+          "drivers": [
+            "Road density",
+            "Travel time to cities",
+            "Distance from major cities",
+            "Development pressure"
+          ]
+        },
+        {
+          "scenario_id": "scenario_2_with_rrts",
+          "description": "Future built-up growth with RRTS-related variables.",
+          "drivers": [
+            "Road density",
+            "Travel time to cities with RRTS influence",
+            "Distance from major cities",
+            "Development pressure",
+            "Distance from RRTS stations",
+            "Distance from RRTS corridor",
+            "RRTS corridor speed of 180 kmph"
+          ]
+        }
+      ],
+      "major_findings": [
+        "The Delhi-Meerut RRTS has limited or marginal additional impact on future built-up growth.",
+        "Differences between with-RRTS and without-RRTS scenarios remain marginal within both 2.5 km and 5 km corridor buffers.",
+        "Future expansion is mainly influenced by existing built-up areas, road accessibility, proximity to major cities, and development pressure.",
+        "The Delhi-Meerut Expressway may have already improved accessibility and catalysed much of the growth expected from improved regional connectivity.",
+        "RRTS should be viewed primarily as a regional mobility and connectivity project rather than as a direct generator of large-scale new urban expansion."
+      ],
+      "outputs": [
+        "M.Plan. thesis report",
+        "LULC datasets",
+        "Built-up extraction outputs",
+        "Predictor-variable maps",
+        "FUTURES model scenarios",
+        "With-RRTS and without-RRTS comparison",
+        "Regional planning recommendations"
+      ],
+      "learning_outcome": "This thesis represents the most technically advanced project in the portfolio. It integrates spatial data science, regional planning theory, transport-land-use interaction, scenario modelling, and policy interpretation. It demonstrates the ability to move from descriptive planning studies to quantitative, model-based urban research.",
+      "keywords": [
+        "Delhi-Meerut RRTS",
+        "regional land use",
+        "FUTURES model",
+        "remote sensing",
+        "GIS",
+        "urban growth modelling",
+        "Landsat",
+        "transport-land-use interaction",
+        "scenario simulation"
+      ]
+    }
+  ],
+  "skill_matrix": [
+    {
+      "skill_area": "Architectural Documentation",
+      "evidence": [
+        "Parinirvana Stupa documentation",
+        "Architectural elements, form, facade, planning, orientation, conservation, and contextual study"
+      ],
+      "project_ids": [
+        "barch_2_parinirvana_stupa"
+      ]
+    },
+    {
+      "skill_area": "Case Study Analysis",
+      "evidence": [
+        "Amit Murao dissertation",
+        "Selected building case studies",
+        "Rohini EWS case study",
+        "City-centre thesis case studies including Salt Lake City Centre, Connaught Place, and Bhikaji Cama Place"
+      ],
+      "project_ids": [
+        "barch_3_amit_murao",
+        "barch_4_ews_housing_delhi",
+        "barch_5_downtown_city_centre_gorakhpur"
+      ]
+    },
+    {
+      "skill_area": "Urban Housing Research",
+      "evidence": [
+        "EWS housing seminar",
+        "Govindpuri poverty and housing quality study",
+        "DDA housing, PMAY, in-situ redevelopment, tenure, affordability, and public housing policy"
+      ],
+      "project_ids": [
+        "barch_4_ews_housing_delhi",
+        "mplan_sem1_govindpuri_housing_quality"
+      ]
+    },
+    {
+      "skill_area": "Public Space and Placemaking",
+      "evidence": [
+        "Downtown cum City Centre thesis",
+        "Public-space evolution study",
+        "Placemaking, active frontage, open plazas, green connections, and inclusive public realm"
+      ],
+      "project_ids": [
+        "barch_5_downtown_city_centre_gorakhpur"
+      ]
+    },
+    {
+      "skill_area": "Policy and Governance Analysis",
+      "evidence": [
+        "DDA, DUSIB, Master Plan of Delhi, Slum Areas Act, Delhi Development Act, PMAY, disaster management institutions, and RRTS corridor governance"
+      ],
+      "project_ids": [
+        "barch_4_ews_housing_delhi",
+        "mplan_sem1_govindpuri_housing_quality",
+        "mplan_sem3_jmi_disaster_management_plan",
+        "mplan_thesis_delhi_meerut_rrts_land_use"
+      ]
+    },
+    {
+      "skill_area": "Field Survey and Primary Research",
+      "evidence": [
+        "Site visits, interviews, semi-structured surveys, observation, campus survey, household/perception data, and photographic documentation"
+      ],
+      "project_ids": [
+        "barch_2_parinirvana_stupa",
+        "barch_3_amit_murao",
+        "barch_4_ews_housing_delhi",
+        "barch_5_downtown_city_centre_gorakhpur",
+        "mplan_sem1_govindpuri_housing_quality",
+        "mplan_sem3_jmi_disaster_management_plan"
+      ]
+    },
+    {
+      "skill_area": "GIS and Spatial Thinking",
+      "evidence": [
+        "Govindpuri LULC interpretation",
+        "Campus hazard mapping",
+        "RRTS spatial modelling, road density, distance variables, buffers, and regional land-use analysis"
+      ],
+      "project_ids": [
+        "mplan_sem1_govindpuri_housing_quality",
+        "mplan_sem3_jmi_disaster_management_plan",
+        "mplan_thesis_delhi_meerut_rrts_land_use"
+      ]
+    },
+    {
+      "skill_area": "Remote Sensing and Modelling",
+      "evidence": [
+        "Landsat classification",
+        "Built-up extraction",
+        "Change detection",
+        "FUTURES model",
+        "Scenario comparison",
+        "Validation against imagery"
+      ],
+      "project_ids": [
+        "mplan_thesis_delhi_meerut_rrts_land_use"
+      ]
+    },
+    {
+      "skill_area": "Disaster Risk Reduction",
+      "evidence": [
+        "Hazard identification",
+        "Vulnerability profiling",
+        "FEMA P-154 Rapid Visual Screening",
+        "Preparedness planning",
+        "Evacuation, control room, drills, and institutional arrangement"
+      ],
+      "project_ids": [
+        "mplan_sem3_jmi_disaster_management_plan"
+      ]
+    },
+    {
+      "skill_area": "Academic Writing",
+      "evidence": [
+        "Dissertation writing",
+        "Seminar report writing",
+        "Thesis structuring",
+        "Abstract development",
+        "Methodology, findings, recommendations, references, and visual documentation"
+      ],
+      "project_ids": [
+        "barch_2_parinirvana_stupa",
+        "barch_3_amit_murao",
+        "barch_4_ews_housing_delhi",
+        "barch_5_downtown_city_centre_gorakhpur",
+        "mplan_sem1_govindpuri_housing_quality",
+        "mplan_sem3_jmi_disaster_management_plan",
+        "mplan_thesis_delhi_meerut_rrts_land_use"
+      ]
+    }
+  ],
+  "search_index": {
+    "all_keywords": [
+      "academic portfolio",
+      "Amanul Haque",
+      "Bachelor of Architecture",
+      "Master of Planning",
+      "Jamia Millia Islamia",
+      "Parinirvana Stupa",
+      "Kushinagar",
+      "Ar. Amit Murao",
+      "Aashray Design Consultants",
+      "EWS housing",
+      "DDA",
+      "Rohini",
+      "Downtown cum City Centre",
+      "Gorakhpur",
+      "public space",
+      "placemaking",
+      "urban void",
+      "mixed-use development",
+      "Govindpuri",
+      "urban poverty",
+      "housing quality",
+      "Disaster Management Plan",
+      "Jamia Millia Islamia campus",
+      "Rapid Visual Screening",
+      "FEMA P-154",
+      "Delhi-Meerut RRTS",
+      "FUTURES model",
+      "GIS",
+      "remote sensing",
+      "Landsat",
+      "urban growth modelling"
+    ],
+    "degree_tags": [
+      "B.Arch.",
+      "M.Plan.",
+      "Urban and Regional Planning"
+    ],
+    "domain_tags": [
+      "architecture",
+      "urban planning",
+      "urban design",
+      "housing policy",
+      "public realm",
+      "disaster resilience",
+      "transport planning",
+      "regional planning",
+      "spatial analytics"
+    ]
+  },
+  "export_notes": {
+    "intended_uses": [
+      "Portfolio website backend",
+      "Resume/portfolio database",
+      "Academic project indexing",
+      "Searchable project catalogue",
+      "ATS-friendly structured project data",
+      "RAG knowledge base seed data"
+    ],
+    "encoding": "UTF-8",
+    "format": "JSON",
+    "validated": true,
+    "human_readable_pdf_companion": "Amanul_Haque_Academic_Project_Portfolio_Updated.pdf"
+  }
+}

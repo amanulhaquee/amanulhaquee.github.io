@@ -1,0 +1,1170 @@
+{
+  "schema_version": "1.0.0",
+  "format": "academic_subject_learning_profile",
+  "document": {
+    "title": "Academic Subject Learning Profile",
+    "subtitle": "Bachelor of Architecture and Master of Planning",
+    "document_type": "formal_academic_profile_machine_readable_json",
+    "language": "en",
+    "profile_style": "formal academic profile",
+    "prepared_on": "2026-06-14",
+    "derived_from_pdf_profile": "academic_subject_learning_profile.pdf",
+    "derived_from_latex_profile": "academic_subject_learning_profile.tex",
+    "summary_policy": "Summarizes what was taught in each subject; does not reproduce the syllabi verbatim.",
+    "optional_subject_policy": "Elective and optional subjects are included only where confirmed by the candidate."
+  },
+  "institution": {
+    "name": "Jamia Millia Islamia",
+    "location": "New Delhi, India",
+    "faculty": "Faculty of Architecture and Ekistics",
+    "departments_referenced": [
+      "Department of Architecture",
+      "Department of Planning"
+    ]
+  },
+  "source_files": [
+    {
+      "file_name": "cs_fae_barch_2019.pdf",
+      "source_type": "uploaded_syllabus_pdf",
+      "programme": "Bachelor of Architecture",
+      "sha256": "2b576f3cd0860cb6f0ec6b7d2992a2b5f35a25873309db9daf2f697a6b25ca2c"
+    },
+    {
+      "file_name": "syllabus_dop_Master_of_Planning.pdf",
+      "source_type": "uploaded_syllabus_pdf",
+      "programme": "Master of Planning",
+      "sha256": "44322cf14e012e882ec6f83eb75474bb77d23f94c863258fba2a2dbc15a3ead4"
+    },
+    {
+      "file_name": "academic_subject_learning_profile.tex",
+      "source_type": "generated_latex_profile",
+      "programme": "Combined B.Arch and M.Plan profile",
+      "sha256": "8717b6ac31126fff7c8824d62ff9d072e0c43bfb1c58c11c585b35250c8a0795"
+    },
+    {
+      "file_name": "academic_subject_learning_profile.pdf",
+      "source_type": "generated_pdf_profile",
+      "programme": "Combined B.Arch and M.Plan profile",
+      "sha256": "74b435a90ce49bcadbfab86c62be714ad2a2a8ba04d06ebc279a0d8bd1e906cb"
+    }
+  ],
+  "candidate_confirmed_scope": {
+    "bachelor_of_architecture": "All five years",
+    "master_of_planning": "All four semesters",
+    "writing_style": "formal academic profile"
+  },
+  "elective_choices": [
+    {
+      "programme": "Bachelor of Architecture",
+      "course_code": "AR 403",
+      "decision_point": "Elective-I",
+      "chosen_subject_or_scope": "Language"
+    },
+    {
+      "programme": "Bachelor of Architecture",
+      "course_code": "AR 503",
+      "decision_point": "Elective-II",
+      "chosen_subject_or_scope": "Energy Efficient Design of Building"
+    },
+    {
+      "programme": "Master of Planning",
+      "course_code": "MP203",
+      "decision_point": "Open Elective-I",
+      "chosen_subject_or_scope": "Parameters: Jurisprudence"
+    },
+    {
+      "programme": "Master of Planning",
+      "course_code": "MP204",
+      "decision_point": "Professional Elective-I",
+      "chosen_subject_or_scope": "Urban Management: Integrated Urban Eco-System Management"
+    },
+    {
+      "programme": "Master of Planning",
+      "course_code": "MP305",
+      "decision_point": "Professional Elective-II",
+      "chosen_subject_or_scope": "Parameters: Regional Planning; Processes and Principles"
+    }
+  ],
+  "programmes": [
+    {
+      "programme_name": "Bachelor of Architecture",
+      "degree_abbreviation": "B.Arch",
+      "programme_level": "undergraduate",
+      "duration": "5 years",
+      "coverage_scope": "all five years",
+      "source_file": "cs_fae_barch_2019.pdf",
+      "periods": [
+        {
+          "period_type": "year",
+          "period_number": 1,
+          "period_label": "Year 1",
+          "courses": [
+            {
+              "course_code": "AR 101",
+              "course_title": "Architectural Design-I",
+              "course_category": "studio",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Orientation to the architectural profession; principles and elements of design; functionality of space; 2D pattern-making and 3D form exploration; anthropometric understanding of personal spaces; measured drawing of an existing or historic building; short design exercises such as kiosks, shelters, stalls and similar small-scale functional spaces.",
+              "learning_coverage": [
+                "Orientation to the architectural profession",
+                "principles and elements of design",
+                "functionality of space",
+                "2D pattern-making and 3D form exploration",
+                "anthropometric understanding of personal spaces",
+                "measured drawing of an existing or historic building",
+                "short design exercises such as kiosks, shelters, stalls and similar small-scale functional spaces"
+              ]
+            },
+            {
+              "course_code": "AR 102",
+              "course_title": "Building Construction-I",
+              "course_category": "building_construction",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Elementary building construction through tools, carpentry joints, brick terminology and bonds, quoins, piers, corbelling and decorative brickwork; stone masonry; foundations, damp proof courses and brick or stone arches; basic material studies of bricks and timber.",
+              "learning_coverage": [
+                "Elementary building construction through tools, carpentry joints, brick terminology and bonds, quoins, piers, corbelling and decorative brickwork",
+                "stone masonry",
+                "foundations, damp proof courses and brick or stone arches",
+                "basic material studies of bricks and timber"
+              ]
+            },
+            {
+              "course_code": "AR 103",
+              "course_title": "Building Materials and Science",
+              "course_category": "theory",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Basic building materials and building science; climate in architecture; climatic elements, zones, macroclimate and microclimate; thermal behaviour of buildings and materials; thermal comfort; solar geometry, shading, daylight, wind, ventilation, passive systems, site selection and material properties in relation to climate.",
+              "learning_coverage": [
+                "Basic building materials and building science",
+                "climate in architecture",
+                "climatic elements, zones, macroclimate and microclimate",
+                "thermal behaviour of buildings and materials",
+                "thermal comfort",
+                "solar geometry, shading, daylight, wind, ventilation, passive systems, site selection and material properties in relation to climate"
+              ]
+            },
+            {
+              "course_code": "AR 104",
+              "course_title": "Architectural Drawing-I",
+              "course_category": "representation_and_digital_tools",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Drafting instruments, sheet layout, lettering, line types and scales; orthographic projections of points, lines, planes and solids; development of surfaces; sections of solids; and introductory sciagraphy for shadow construction.",
+              "learning_coverage": [
+                "Drafting instruments, sheet layout, lettering, line types and scales",
+                "orthographic projections of points, lines, planes and solids",
+                "development of surfaces",
+                "sections of solids",
+                "and introductory sciagraphy for shadow construction"
+              ]
+            },
+            {
+              "course_code": "AR 105",
+              "course_title": "Workshop Practices-I",
+              "course_category": "workshop",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Basic workshop skills for representing architectural ideas: wood joinery, pipe and sleeve joints, welded and nut-bolt metal joints, model-making tools, block and detailed models, construction models, interior models and experimentation with materials at different scales.",
+              "learning_coverage": [
+                "Basic workshop skills for representing architectural ideas: wood joinery, pipe and sleeve joints, welded and nut-bolt metal joints, model-making tools, block and detailed models, construction models, interior models and experimentation with materials at different scales."
+              ]
+            },
+            {
+              "course_code": "AR 106",
+              "course_title": "Theory of Structures-I",
+              "course_category": "structures",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Fundamentals of structural behaviour including stress-strain relationships, Hooke's law, elastic properties, centre of gravity, moment of inertia, two-dimensional force systems, static equilibrium, friction, shear force and bending moment in basic beams.",
+              "learning_coverage": [
+                "Fundamentals of structural behaviour including stress-strain relationships, Hooke's law, elastic properties, centre of gravity, moment of inertia, two-dimensional force systems, static equilibrium, friction, shear force and bending moment in basic beams."
+              ]
+            },
+            {
+              "course_code": "AR 107",
+              "course_title": "Survey and Levelling",
+              "course_category": "theory",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Surveying as a tool for reading land and topography; chain surveying, compass surveying, levelling, plane tabling, contouring, theodolite surveying, tachometric surveying, setting out of building works and interpretation/preparation of contour maps.",
+              "learning_coverage": [
+                "Surveying as a tool for reading land and topography",
+                "chain surveying, compass surveying, levelling, plane tabling, contouring, theodolite surveying, tachometric surveying, setting out of building works and interpretation/preparation of contour maps"
+              ]
+            },
+            {
+              "course_code": "AR 108",
+              "course_title": "Visual Communication Skills",
+              "course_category": "representation_and_digital_tools",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Devices for visual communication, cameras and photographic equipment; communication graphics, typography, composition, translation of concepts into word-image-layout formats, and the use of photography as a design presentation and analytical tool.",
+              "learning_coverage": [
+                "Devices for visual communication, cameras and photographic equipment",
+                "communication graphics, typography, composition, translation of concepts into word-image-layout formats, and the use of photography as a design presentation and analytical tool"
+              ]
+            },
+            {
+              "course_code": "AR 109",
+              "course_title": "Computer Applications-I",
+              "course_category": "representation_and_digital_tools",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Introductory digital tools for documentation, presentation and drawing; use of scanners, printers and plotters; AutoCAD as a drafting tool; and office/presentation applications such as word processing, spreadsheets, slides and page layout.",
+              "learning_coverage": [
+                "Introductory digital tools for documentation, presentation and drawing",
+                "use of scanners, printers and plotters",
+                "AutoCAD as a drafting tool",
+                "and office/presentation applications such as word processing, spreadsheets, slides and page layout"
+              ]
+            },
+            {
+              "course_code": "AR 110",
+              "course_title": "Dissertation: Indian Arts",
+              "course_category": "research",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Introductory academic writing through research documentation, report writing formats, APA and Chicago style references, bibliographies, footnotes and citations, applied to the study of Indian arts.",
+              "learning_coverage": [
+                "Introductory academic writing through research documentation, report writing formats, APA and Chicago style references, bibliographies, footnotes and citations, applied to the study of Indian arts."
+              ]
+            },
+            {
+              "course_code": "AR 111",
+              "course_title": "Arts and Graphics-I",
+              "course_category": "representation_and_digital_tools",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Art in relation to architecture; composition and design basics; colour theory; aesthetic appreciation; exercises in shapes, natural patterns, collage, rapid sketching, nature studies and architectural graphic expression.",
+              "learning_coverage": [
+                "Art in relation to architecture",
+                "composition and design basics",
+                "colour theory",
+                "aesthetic appreciation",
+                "exercises in shapes, natural patterns, collage, rapid sketching, nature studies and architectural graphic expression"
+              ]
+            }
+          ]
+        },
+        {
+          "period_type": "year",
+          "period_number": 2,
+          "period_label": "Year 2",
+          "courses": [
+            {
+              "course_code": "AR 201",
+              "course_title": "Architectural Design-II",
+              "course_category": "studio",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Design projects responding to different climatic conditions, land and landforms, built/open space relations and vernacular/local material contexts; complex repetitive-space projects such as schools, hostels, shops or offices; circulation, parking, services and structural feasibility through site analysis and block models.",
+              "learning_coverage": [
+                "Design projects responding to different climatic conditions, land and landforms, built/open space relations and vernacular/local material contexts",
+                "complex repetitive-space projects such as schools, hostels, shops or offices",
+                "circulation, parking, services and structural feasibility through site analysis and block models"
+              ]
+            },
+            {
+              "course_code": "AR 202",
+              "course_title": "Building Construction-II",
+              "course_category": "building_construction",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Construction details for doors, windows, timber and bamboo roofs, trusses, staircases, lift wells and partitions; materials including glass, plastics, paints, varnishes, floor finishes and roofing materials; integration of construction details with design studio work.",
+              "learning_coverage": [
+                "Construction details for doors, windows, timber and bamboo roofs, trusses, staircases, lift wells and partitions",
+                "materials including glass, plastics, paints, varnishes, floor finishes and roofing materials",
+                "integration of construction details with design studio work"
+              ]
+            },
+            {
+              "course_code": "AR 203",
+              "course_title": "History of Architecture-I",
+              "course_category": "theory",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Ancient world and Indian architecture: Stone Age to Neolithic settlements, Egyptian, Mesopotamian, Greek, Roman, Early Christian, Byzantine, Romanesque, Gothic and Central Asian architecture; Indus Valley planning, Vedic culture, Buddhist architecture, North and South Indian temple forms and Jain architecture.",
+              "learning_coverage": [
+                "Ancient world and Indian architecture: Stone Age to Neolithic settlements, Egyptian, Mesopotamian, Greek, Roman, Early Christian, Byzantine, Romanesque, Gothic and Central Asian architecture",
+                "Indus Valley planning, Vedic culture, Buddhist architecture, North and South Indian temple forms and Jain architecture"
+              ]
+            },
+            {
+              "course_code": "AR 204",
+              "course_title": "Architectural Drawing-II",
+              "course_category": "representation_and_digital_tools",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Metric drawings and projections including isometric, axonometric and oblique views; perspective drawing, one-, two- and three-point perspectives, perspectives of furniture and residences; innovative perspective methods; interior perspectives; texture, furniture, vehicles and human figure representation; rendered presentation drawings.",
+              "learning_coverage": [
+                "Metric drawings and projections including isometric, axonometric and oblique views",
+                "perspective drawing, one-, two- and three-point perspectives, perspectives of furniture and residences",
+                "innovative perspective methods",
+                "interior perspectives",
+                "texture, furniture, vehicles and human figure representation",
+                "rendered presentation drawings"
+              ]
+            },
+            {
+              "course_code": "AR 205",
+              "course_title": "Workshop Practices-II",
+              "course_category": "workshop",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Advanced model-making sequence from base preparation to layout cutting, joining, fixing and finishing; models for stairs, curtain glazing, pergolas, space frames and landscapes; detailed building models with colour, texture, landscape and human figures.",
+              "learning_coverage": [
+                "Advanced model-making sequence from base preparation to layout cutting, joining, fixing and finishing",
+                "models for stairs, curtain glazing, pergolas, space frames and landscapes",
+                "detailed building models with colour, texture, landscape and human figures"
+              ]
+            },
+            {
+              "course_code": "AR 206",
+              "course_title": "Theory of Structures-II",
+              "course_category": "structures",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Deflection of beams, determinate and indeterminate structures, load transfer, three-moment theorem, fixed and continuous beams, slope-deflection and moment distribution methods; design philosophies; analysis and design of reinforced concrete beam sections, shear, bond, beam failure mechanisms and concrete construction basics.",
+              "learning_coverage": [
+                "Deflection of beams, determinate and indeterminate structures, load transfer, three-moment theorem, fixed and continuous beams, slope-deflection and moment distribution methods",
+                "design philosophies",
+                "analysis and design of reinforced concrete beam sections, shear, bond, beam failure mechanisms and concrete construction basics"
+              ]
+            },
+            {
+              "course_code": "AR 207",
+              "course_title": "Building Services-I",
+              "course_category": "building_services",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Elementary building services for water supply, sanitation, drainage and roads; water sources, storage, consumption and fixtures; sanitary fittings, drainage systems, septic tanks, manholes, house drains and sewer gradients; road types and drainage elements.",
+              "learning_coverage": [
+                "Elementary building services for water supply, sanitation, drainage and roads",
+                "water sources, storage, consumption and fixtures",
+                "sanitary fittings, drainage systems, septic tanks, manholes, house drains and sewer gradients",
+                "road types and drainage elements"
+              ]
+            },
+            {
+              "course_code": "AR 208",
+              "course_title": "Virtual Architecture-I",
+              "course_category": "representation_and_digital_tools",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Photography, digital imaging and computer visualisation for architectural presentation; image design, model photography, digital manipulation, rendering, lighting simulation, animation, scanning, raster graphics, virtual reality and tools such as InDesign, Illustrator and SketchUp.",
+              "learning_coverage": [
+                "Photography, digital imaging and computer visualisation for architectural presentation",
+                "image design, model photography, digital manipulation, rendering, lighting simulation, animation, scanning, raster graphics, virtual reality and tools such as InDesign, Illustrator and SketchUp"
+              ]
+            },
+            {
+              "course_code": "AR 209",
+              "course_title": "Computer Applications-II",
+              "course_category": "representation_and_digital_tools",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Architectural software applications with emphasis on AutoCAD; 2D drafting commands, layers, text/dimension styles, polylines, splines, external references, attributes, model space and paper space; working plan, elevation and section drafting; introduction to 3D modelling.",
+              "learning_coverage": [
+                "Architectural software applications with emphasis on AutoCAD",
+                "2D drafting commands, layers, text/dimension styles, polylines, splines, external references, attributes, model space and paper space",
+                "working plan, elevation and section drafting",
+                "introduction to 3D modelling"
+              ]
+            },
+            {
+              "course_code": "AR 210",
+              "course_title": "Dissertation: Indian Architecture",
+              "course_category": "research",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Research into historic and contemporary Indian architecture and its social and cultural implications; topic framing, synopsis approval, site visits, interviews, library work and a 40-50 page research report on an area, period or building of significance.",
+              "learning_coverage": [
+                "Research into historic and contemporary Indian architecture and its social and cultural implications",
+                "topic framing, synopsis approval, site visits, interviews, library work and a 40-50 page research report on an area, period or building of significance"
+              ]
+            },
+            {
+              "course_code": "AR 211",
+              "course_title": "Arts and Graphics-II",
+              "course_category": "representation_and_digital_tools",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Advanced architectural graphic sense through motifs, patterns, murals, book covers, 3D paper sculpture, tonal colour treatment, still life, perspective, rapid sketching, calligraphy, typography, media studies and rendering of building interiors and exteriors.",
+              "learning_coverage": [
+                "Advanced architectural graphic sense through motifs, patterns, murals, book covers, 3D paper sculpture, tonal colour treatment, still life, perspective, rapid sketching, calligraphy, typography, media studies and rendering of building interiors and exteriors."
+              ]
+            }
+          ]
+        },
+        {
+          "period_type": "year",
+          "period_number": 3,
+          "period_label": "Year 3",
+          "courses": [
+            {
+              "course_code": "AR 301",
+              "course_title": "Architectural Design-III",
+              "course_category": "studio",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Design of structural spanning systems and urban-setting buildings; structural explorations such as arches, vaults, domes, trusses, space frames, folded slabs, shells, tensile and pneumatic systems; complex multi-storeyed design such as offices, malls, hotels, colleges or hospitals with circulation, construction and working drawing integration.",
+              "learning_coverage": [
+                "Design of structural spanning systems and urban-setting buildings",
+                "structural explorations such as arches, vaults, domes, trusses, space frames, folded slabs, shells, tensile and pneumatic systems",
+                "complex multi-storeyed design such as offices, malls, hotels, colleges or hospitals with circulation, construction and working drawing integration"
+              ]
+            },
+            {
+              "course_code": "AR 302",
+              "course_title": "Building Construction-III",
+              "course_category": "building_construction",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Modern construction using steel, aluminium, glass and composite materials; doors, windows, rolling shutters, fire/sound-proof doors, steel staircases and fire escapes; waterproofing systems; steel trusses, terracing, rainwater disposal and metal sections/materials used in buildings.",
+              "learning_coverage": [
+                "Modern construction using steel, aluminium, glass and composite materials",
+                "doors, windows, rolling shutters, fire/sound-proof doors, steel staircases and fire escapes",
+                "waterproofing systems",
+                "steel trusses, terracing, rainwater disposal and metal sections/materials used in buildings"
+              ]
+            },
+            {
+              "course_code": "AR 303",
+              "course_title": "History of Architecture-II",
+              "course_category": "theory",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Medieval and modern world architecture with emphasis on India: Islamic, Renaissance, Baroque, Neo-classical and modern movements; Sultanate, provincial, Rajasthani, Mughal, colonial and New Delhi architecture studied with reference to climate, society, politics, construction, materials and style.",
+              "learning_coverage": [
+                "Medieval and modern world architecture with emphasis on India: Islamic, Renaissance, Baroque, Neo-classical and modern movements",
+                "Sultanate, provincial, Rajasthani, Mughal, colonial and New Delhi architecture studied with reference to climate, society, politics, construction, materials and style"
+              ]
+            },
+            {
+              "course_code": "AR 304",
+              "course_title": "Principles of Human Settlements",
+              "course_category": "theory",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Human settlement patterns and their relevance to architecture; man-environment relations, primitive shelters, settlement origins, river valley settlements, Indus, Vedic, Nile, Chinese, Euphrates-Tigris civilisations, medieval towns, Renaissance planning and industrial revolution impacts.",
+              "learning_coverage": [
+                "Human settlement patterns and their relevance to architecture",
+                "man-environment relations, primitive shelters, settlement origins, river valley settlements, Indus, Vedic, Nile, Chinese, Euphrates-Tigris civilisations, medieval towns, Renaissance planning and industrial revolution impacts"
+              ]
+            },
+            {
+              "course_code": "AR 305",
+              "course_title": "Estimation and Costing",
+              "course_category": "theory",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Quantities and estimates for medium-complexity building works; specifications, area classifications, preliminary and detailed estimates, bills of quantities, measurement methods, market rates, labour/material norms, CPWD/PWD schedules, rate analysis, tender notices and tender comparison.",
+              "learning_coverage": [
+                "Quantities and estimates for medium-complexity building works",
+                "specifications, area classifications, preliminary and detailed estimates, bills of quantities, measurement methods, market rates, labour/material norms, CPWD/PWD schedules, rate analysis, tender notices and tender comparison"
+              ]
+            },
+            {
+              "course_code": "AR 306",
+              "course_title": "Theory of Structures-III",
+              "course_category": "structures",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Design of reinforced concrete slabs, columns, beams, portal frames, staircases, strip and isolated footings and retaining walls; soil mechanics, bearing capacity, sub-soil investigation, shallow and deep foundations; introductory steel connections, tension/compression members, girders and grillage foundations.",
+              "learning_coverage": [
+                "Design of reinforced concrete slabs, columns, beams, portal frames, staircases, strip and isolated footings and retaining walls",
+                "soil mechanics, bearing capacity, sub-soil investigation, shallow and deep foundations",
+                "introductory steel connections, tension/compression members, girders and grillage foundations"
+              ]
+            },
+            {
+              "course_code": "AR 307",
+              "course_title": "Building Services-II",
+              "course_category": "building_services",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Electrical services, circuits, wiring, distribution boards, protection systems, illumination principles and lamp/luminaire design; air-conditioning fundamentals, psychrometric chart, comfort zone, refrigeration and air cycles, ventilation, ducting and cooling load basics.",
+              "learning_coverage": [
+                "Electrical services, circuits, wiring, distribution boards, protection systems, illumination principles and lamp/luminaire design",
+                "air-conditioning fundamentals, psychrometric chart, comfort zone, refrigeration and air cycles, ventilation, ducting and cooling load basics"
+              ]
+            },
+            {
+              "course_code": "AR 308",
+              "course_title": "Virtual Architecture-II",
+              "course_category": "representation_and_digital_tools",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Interface design for web, graphics, video and sound; interactive multimedia, asset preparation and delivery systems; digital fabrication concepts, CAD-to-construction workflows, computer-driven hardware tools, virtual worlds, 3D modelling and animation.",
+              "learning_coverage": [
+                "Interface design for web, graphics, video and sound",
+                "interactive multimedia, asset preparation and delivery systems",
+                "digital fabrication concepts, CAD-to-construction workflows, computer-driven hardware tools, virtual worlds, 3D modelling and animation"
+              ]
+            },
+            {
+              "course_code": "AR 309",
+              "course_title": "Computer Applications-III",
+              "course_category": "representation_and_digital_tools",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Advanced architectural software: AutoCAD 3D coordinate systems, solid modelling, editing and workplanes; introduction to Revit and BIM-oriented 2D/3D working methods; Photoshop, PageMaker and CorelDraw for architectural presentation.",
+              "learning_coverage": [
+                "Advanced architectural software: AutoCAD 3D coordinate systems, solid modelling, editing and workplanes",
+                "introduction to Revit and BIM-oriented 2D/3D working methods",
+                "Photoshop, PageMaker and CorelDraw for architectural presentation"
+              ]
+            },
+            {
+              "course_code": "AR 310",
+              "course_title": "Dissertation: Indian Architects",
+              "course_category": "research",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Research on contemporary Indian architects, their projects, design philosophies and contribution to Indian architecture; synopsis, site/library/interview-based study and a 20-25 page analytical report.",
+              "learning_coverage": [
+                "Research on contemporary Indian architects, their projects, design philosophies and contribution to Indian architecture",
+                "synopsis, site/library/interview-based study and a 20-25 page analytical report"
+              ]
+            }
+          ]
+        },
+        {
+          "period_type": "year",
+          "period_number": 4,
+          "period_label": "Year 4",
+          "courses": [
+            {
+              "course_code": "AR 401",
+              "course_title": "Architectural Design-IV",
+              "course_category": "studio",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Integrated building and urban-scale design; group housing or large-scale multi-storey projects addressing movement, traffic, services, waste management, materials, lighting and landscape; urban design intervention with demography, land values, land use, open-built relations, surveys and study models.",
+              "learning_coverage": [
+                "Integrated building and urban-scale design",
+                "group housing or large-scale multi-storey projects addressing movement, traffic, services, waste management, materials, lighting and landscape",
+                "urban design intervention with demography, land values, land use, open-built relations, surveys and study models"
+              ]
+            },
+            {
+              "course_code": "AR 402",
+              "course_title": "Building Construction-IV",
+              "course_category": "building_construction",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Specialized construction details such as soundproof doors, bay windows, skylights, pile foundations and pile caps, glazed/lightweight/soundproof partitions, soft panelling, precast and prestressed/post-tensioned concrete members, modular construction and contemporary materials such as Corian, veneers, ETFE and light-gauge steel.",
+              "learning_coverage": [
+                "Specialized construction details such as soundproof doors, bay windows, skylights, pile foundations and pile caps, glazed/lightweight/soundproof partitions, soft panelling, precast and prestressed/post-tensioned concrete members, modular construction and contemporary materials such as Corian, veneers, ETFE and light-gauge steel."
+              ]
+            },
+            {
+              "course_code": "AR 403",
+              "course_title": "Elective-I: Language",
+              "course_category": "elective",
+              "is_elective_or_optional": true,
+              "selected_option": "Language",
+              "is_audit_course": false,
+              "coverage_summary": "Intensive elective study in a language option offered through the Department of Foreign Languages. The selected elective was Language, with learning structured through lectures/tutorials/practical work, self-study, a report/presentation and viva voce.",
+              "learning_coverage": [
+                "Intensive elective study in a language option offered through the Department of Foreign Languages. The selected elective was Language, with learning structured through lectures/tutorials/practical work, self-study, a report/presentation and viva voce."
+              ]
+            },
+            {
+              "course_code": "AR 404",
+              "course_title": "Town Planning",
+              "course_category": "theory",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Settlement and town planning concepts, City Beautiful, Garden City, Radburn and neighbourhood concepts; planning pioneers, contemporary theories, planning process, quantitative methods, GIS/remote sensing in planning, URDPFI guidelines, urban design, land-use planning, zoning, development controls, transport/public facilities and environmental planning.",
+              "learning_coverage": [
+                "Settlement and town planning concepts, City Beautiful, Garden City, Radburn and neighbourhood concepts",
+                "planning pioneers, contemporary theories, planning process, quantitative methods, GIS/remote sensing in planning, URDPFI guidelines, urban design, land-use planning, zoning, development controls, transport/public facilities and environmental planning"
+              ]
+            },
+            {
+              "course_code": "AR 405",
+              "course_title": "Landscape",
+              "course_category": "theory",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Landscape elements of land, water and vegetation; hard and soft landscape detailing; landscape services including plumbing, electrical, sewage and water supply; Indian vegetation, plant materials, grading/slopes, working drawings and landscape concepts from Europe, Japan, India, China and Renaissance traditions.",
+              "learning_coverage": [
+                "Landscape elements of land, water and vegetation",
+                "hard and soft landscape detailing",
+                "landscape services including plumbing, electrical, sewage and water supply",
+                "Indian vegetation, plant materials, grading/slopes, working drawings and landscape concepts from Europe, Japan, India, China and Renaissance traditions"
+              ]
+            },
+            {
+              "course_code": "AR 406",
+              "course_title": "Theory of Structures-IV",
+              "course_category": "structures",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Advanced structural systems including earthquake-resistant design, seismic zoning, base shear, lateral forces, ductile detailing and codes; computer-aided structural design demonstrations; conceptual study of domes, shells, folded plates, space frames, flat slabs, portal frames, cables, suspension and inflatable structures.",
+              "learning_coverage": [
+                "Advanced structural systems including earthquake-resistant design, seismic zoning, base shear, lateral forces, ductile detailing and codes",
+                "computer-aided structural design demonstrations",
+                "conceptual study of domes, shells, folded plates, space frames, flat slabs, portal frames, cables, suspension and inflatable structures"
+              ]
+            },
+            {
+              "course_code": "AR 407",
+              "course_title": "Building Services-III",
+              "course_category": "building_services",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Acoustics, reverberation, sound absorption/reflection and acoustic defects; fire causes, spread, detection, alarms, fire-fighting equipment and fire escapes; lifts, escalators and conveyors; intelligent building devices, water harvesting and non-conventional energy sources for energy-efficient buildings.",
+              "learning_coverage": [
+                "Acoustics, reverberation, sound absorption/reflection and acoustic defects",
+                "fire causes, spread, detection, alarms, fire-fighting equipment and fire escapes",
+                "lifts, escalators and conveyors",
+                "intelligent building devices, water harvesting and non-conventional energy sources for energy-efficient buildings"
+              ]
+            },
+            {
+              "course_code": "AR 408",
+              "course_title": "Humanities",
+              "course_category": "theory",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Psychology, creativity, logic, reasoning and colour in design; social, political, religious and cultural structures; stratification, migration, industrialisation, modernization and urbanization; economics of demand/supply, feasibility and financing; Indian governance from union to local government.",
+              "learning_coverage": [
+                "Psychology, creativity, logic, reasoning and colour in design",
+                "social, political, religious and cultural structures",
+                "stratification, migration, industrialisation, modernization and urbanization",
+                "economics of demand/supply, feasibility and financing",
+                "Indian governance from union to local government"
+              ]
+            },
+            {
+              "course_code": "AR 409",
+              "course_title": "Building Bye Laws",
+              "course_category": "theory",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Need, authority and application of building bye-laws; plot size, setbacks, coverage, light, ventilation, sanitation, site planning, housing layouts, master plan controls, densities, road widths and municipal submission drawings; codes, BIS/NBC, housing types, low-cost housing and Energy Conservation Building Code.",
+              "learning_coverage": [
+                "Need, authority and application of building bye-laws",
+                "plot size, setbacks, coverage, light, ventilation, sanitation, site planning, housing layouts, master plan controls, densities, road widths and municipal submission drawings",
+                "codes, BIS/NBC, housing types, low-cost housing and Energy Conservation Building Code"
+              ]
+            },
+            {
+              "course_code": "AR 410",
+              "course_title": "Seminar: Indian Habitat",
+              "course_category": "research",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Research-based study of Indian habitat, vernacular construction materials and methods, and their contemporary applications; preparation of synopsis, field visits, interviews, library work and a 40-45 page report on a dwelling cluster, housing type or habitat issue.",
+              "learning_coverage": [
+                "Research-based study of Indian habitat, vernacular construction materials and methods, and their contemporary applications",
+                "preparation of synopsis, field visits, interviews, library work and a 40-45 page report on a dwelling cluster, housing type or habitat issue"
+              ]
+            },
+            {
+              "course_code": "AR 411",
+              "course_title": "Interior Design",
+              "course_category": "theory",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Interior space planning, anthropometrics, human scale, furniture anthropometrics, design principles, colour, illumination, furnishings/accessories, modern furniture history and exercises in toilets, offices, kitchens, restaurants and showrooms.",
+              "learning_coverage": [
+                "Interior space planning, anthropometrics, human scale, furniture anthropometrics, design principles, colour, illumination, furnishings/accessories, modern furniture history and exercises in toilets, offices, kitchens, restaurants and showrooms."
+              ]
+            },
+            {
+              "course_code": "AR 412",
+              "course_title": "Management",
+              "course_category": "professional_practice_and_management",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Office and project management basics: formal/informal organisation, hierarchy, CPM, PERT, bar charts, decision-making, motivation, communication and feedback, project management, budgeting, balance sheets, project appraisal, inventory management and entrepreneurship.",
+              "learning_coverage": [
+                "Office and project management basics: formal/informal organisation, hierarchy, CPM, PERT, bar charts, decision-making, motivation, communication and feedback, project management, budgeting, balance sheets, project appraisal, inventory management and entrepreneurship."
+              ]
+            }
+          ]
+        },
+        {
+          "period_type": "year",
+          "period_number": 5,
+          "period_label": "Year 5",
+          "courses": [
+            {
+              "course_code": "AR 501",
+              "course_title": "Thesis",
+              "course_category": "thesis",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Culminating design/research project demonstrating architectural skills and design attitude; synopsis preparation, guide-led development, site/context study, case studies, byelaws, concept formation, built-open relationships, movement, services, materials, lighting, landscape, environmental impact, structures and final design proposal.",
+              "learning_coverage": [
+                "Culminating design/research project demonstrating architectural skills and design attitude",
+                "synopsis preparation, guide-led development, site/context study, case studies, byelaws, concept formation, built-open relationships, movement, services, materials, lighting, landscape, environmental impact, structures and final design proposal"
+              ]
+            },
+            {
+              "course_code": "AR 502",
+              "course_title": "Professional Practice",
+              "course_category": "professional_practice_and_management",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Professional conduct, duties, rights and procedures; Architects Act 1972, AICTE Act, role and ethics of architects, office organisation, accounts, professional fees, IIA/ARCASIA/CAA/UIA, contracts, arbitration, environmental and consumer law, taxation, IPR, tenders, valuation and agencies related to architecture.",
+              "learning_coverage": [
+                "Professional conduct, duties, rights and procedures",
+                "Architects Act 1972, AICTE Act, role and ethics of architects, office organisation, accounts, professional fees, IIA/ARCASIA/CAA/UIA, contracts, arbitration, environmental and consumer law, taxation, IPR, tenders, valuation and agencies related to architecture"
+              ]
+            },
+            {
+              "course_code": "AR 503",
+              "course_title": "Elective-II: Energy Efficient Design of Building",
+              "course_category": "elective",
+              "is_elective_or_optional": true,
+              "selected_option": "Energy Efficient Design of Building",
+              "is_audit_course": false,
+              "coverage_summary": "Selected thesis-linked elective focusing on energy-efficient building design. The syllabus allowed Energy Efficiency as an elective area, developed through lectures/tutorials/self-study, detailed study of the selected component, report/presentation and viva; the profile focus includes passive design, energy-conscious services, materials, lighting, ventilation, rating systems and environmental performance.",
+              "learning_coverage": [
+                "Selected thesis-linked elective focusing on energy-efficient building design. The syllabus allowed Energy Efficiency as an elective area, developed through lectures/tutorials/self-study, detailed study of the selected component, report/presentation and viva",
+                "the profile focus includes passive design, energy-conscious services, materials, lighting, ventilation, rating systems and environmental performance"
+              ]
+            },
+            {
+              "course_code": "AR 504",
+              "course_title": "Practical Training",
+              "course_category": "professional_training",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Sixteen weeks of full-time practical professional training in an approved architectural firm, with exposure to office practice, design documentation, site/field conditions, professional workflow and submission of a performance/work report.",
+              "learning_coverage": [
+                "Sixteen weeks of full-time practical professional training in an approved architectural firm, with exposure to office practice, design documentation, site/field conditions, professional workflow and submission of a performance/work report."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "programme_name": "Master of Planning",
+      "degree_abbreviation": "M.Plan",
+      "programme_level": "postgraduate",
+      "duration": "2 years / 4 semesters",
+      "coverage_scope": "all four semesters",
+      "source_file": "syllabus_dop_Master_of_Planning.pdf",
+      "periods": [
+        {
+          "period_type": "semester",
+          "period_number": 1,
+          "period_label": "Semester I",
+          "courses": [
+            {
+              "course_code": "MP101",
+              "course_title": "Planning History and Theory",
+              "course_category": "theory",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Ancient and medieval Indian cities; Mughal and colonial built environments; urban theories such as concentric zone, sector, multiple nuclei, land value and global city; planning theories including rational, advocacy, political economy, equity, radical and collaborative planning.",
+              "learning_coverage": [
+                "Ancient and medieval Indian cities",
+                "Mughal and colonial built environments",
+                "urban theories such as concentric zone, sector, multiple nuclei, land value and global city",
+                "planning theories including rational, advocacy, political economy, equity, radical and collaborative planning"
+              ]
+            },
+            {
+              "course_code": "MP102",
+              "course_title": "Planning Techniques",
+              "course_category": "theory",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Map preparation, scales and base maps; data requirements for planning; primary/secondary data, qualitative/quantitative surveys, sampling and questionnaires; physical surveys; land suitability, land use coding, density, population/economic analysis and graphic/spatial presentation of data.",
+              "learning_coverage": [
+                "Map preparation, scales and base maps",
+                "data requirements for planning",
+                "primary/secondary data, qualitative/quantitative surveys, sampling and questionnaires",
+                "physical surveys",
+                "land suitability, land use coding, density, population/economic analysis and graphic/spatial presentation of data"
+              ]
+            },
+            {
+              "course_code": "MP103",
+              "course_title": "Transport Planning",
+              "course_category": "theory",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Transport systems, demand, norms and standards; road/intersection design, pedestrian and cyclist infrastructure, parking and traffic management; land use-transport integration, traffic impact of development, TOD, government policies and major transport infrastructure projects.",
+              "learning_coverage": [
+                "Transport systems, demand, norms and standards",
+                "road/intersection design, pedestrian and cyclist infrastructure, parking and traffic management",
+                "land use-transport integration, traffic impact of development, TOD, government policies and major transport infrastructure projects"
+              ]
+            },
+            {
+              "course_code": "MP104",
+              "course_title": "Housing and Environment Planning",
+              "course_category": "theory",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Housing need, demand, supply, shortage, typologies, Census-based analysis, policy and finance; ecosystem and urban ecosystem concepts, pollution, quantitative ecology, EIA, ecological parameters, resource planning and National Action Plan on Climate Change missions.",
+              "learning_coverage": [
+                "Housing need, demand, supply, shortage, typologies, Census-based analysis, policy and finance",
+                "ecosystem and urban ecosystem concepts, pollution, quantitative ecology, EIA, ecological parameters, resource planning and National Action Plan on Climate Change missions"
+              ]
+            },
+            {
+              "course_code": "MP105",
+              "course_title": "Area Planning Studio",
+              "course_category": "studio",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Application of GIS and statistics to settlement appreciation, field surveys and analysis; preparation of a development plan for a neighbourhood or village in rural/urban contexts; collaborative studio work connecting theory to real-world planning practice.",
+              "learning_coverage": [
+                "Application of GIS and statistics to settlement appreciation, field surveys and analysis",
+                "preparation of a development plan for a neighbourhood or village in rural/urban contexts",
+                "collaborative studio work connecting theory to real-world planning practice"
+              ]
+            },
+            {
+              "course_code": "MP106",
+              "course_title": "Economics and Sociology",
+              "course_category": "theory",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Culture-city relationships, social structures and spatial structures, social aspects of housing and slums; economic resources, goods, production, costs, markets, rent, land-use patterns, land values, private property and land/real-estate markets.",
+              "learning_coverage": [
+                "Culture-city relationships, social structures and spatial structures, social aspects of housing and slums",
+                "economic resources, goods, production, costs, markets, rent, land-use patterns, land values, private property and land/real-estate markets"
+              ]
+            },
+            {
+              "course_code": "MP107",
+              "course_title": "Dissertation-I",
+              "course_category": "research",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Research methodology, hierarchy of data-information-knowledge-wisdom, identifying knowledge gaps, objectivity, inductive/deductive reasoning, analogy and causality, sequential research, citation and annotated bibliography, alongside topic development for dissertation work.",
+              "learning_coverage": [
+                "Research methodology, hierarchy of data-information-knowledge-wisdom, identifying knowledge gaps, objectivity, inductive/deductive reasoning, analogy and causality, sequential research, citation and annotated bibliography, alongside topic development for dissertation work."
+              ]
+            }
+          ]
+        },
+        {
+          "period_type": "semester",
+          "period_number": 2,
+          "period_label": "Semester II",
+          "courses": [
+            {
+              "course_code": "MP201",
+              "course_title": "Metropolitan Regional Planning",
+              "course_category": "theory",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Definitions and structures of metropolitan cities, agglomerations and regions; globalization and desakota; evolution and delineation of metropolitan regions; approaches to metropolitan regional plans; implementation in India; peripheralization and environmental assets in peripheral areas.",
+              "learning_coverage": [
+                "Definitions and structures of metropolitan cities, agglomerations and regions",
+                "globalization and desakota",
+                "evolution and delineation of metropolitan regions",
+                "approaches to metropolitan regional plans",
+                "implementation in India",
+                "peripheralization and environmental assets in peripheral areas"
+              ]
+            },
+            {
+              "course_code": "MP202",
+              "course_title": "Infrastructure Planning",
+              "course_category": "theory",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Physical and social infrastructure for settlements: water supply systems, sanitation, sewerage, storm water drainage, solid waste management, education/health/recreation/socio-cultural facilities, scalogram techniques, infrastructure norms, policies, missions and assessment of future requirements.",
+              "learning_coverage": [
+                "Physical and social infrastructure for settlements: water supply systems, sanitation, sewerage, storm water drainage, solid waste management, education/health/recreation/socio-cultural facilities, scalogram techniques, infrastructure norms, policies, missions and assessment of future requirements."
+              ]
+            },
+            {
+              "course_code": "MP203",
+              "course_title": "Open Elective-I: Parameters - Jurisprudence",
+              "course_category": "elective",
+              "is_elective_or_optional": true,
+              "selected_option": "Parameters: Jurisprudence",
+              "is_audit_course": false,
+              "coverage_summary": "Selected elective on legal parameters for planning: definitions of acts, statutes, laws and ordinances; centre/state jurisdiction; environmental, wildlife, coastal, pollution, urban development, town and country planning, municipal, land acquisition, building bye-law, rent control and slum laws; urban conservation, World Heritage, antiquities, monuments and UNESCO charters.",
+              "learning_coverage": [
+                "Selected elective on legal parameters for planning: definitions of acts, statutes, laws and ordinances",
+                "centre/state jurisdiction",
+                "environmental, wildlife, coastal, pollution, urban development, town and country planning, municipal, land acquisition, building bye-law, rent control and slum laws",
+                "urban conservation, World Heritage, antiquities, monuments and UNESCO charters"
+              ]
+            },
+            {
+              "course_code": "MP204",
+              "course_title": "Professional Elective-I: Urban Management - Integrated Urban Eco-System Management",
+              "course_category": "elective",
+              "is_elective_or_optional": true,
+              "selected_option": "Urban Management: Integrated Urban Eco-System Management",
+              "is_audit_course": false,
+              "coverage_summary": "Selected professional elective covering management functions and decision-making, urban ecology and sustainability, microclimate, energy-rating systems such as LEED/GRIHA, urban hydrology, water resource management, urban forestry, biodiversity, open-space systems, land stock management, waste management, climate change, hazards and environmental impact assessment.",
+              "learning_coverage": [
+                "Selected professional elective covering management functions and decision-making, urban ecology and sustainability, microclimate, energy-rating systems such as LEED/GRIHA, urban hydrology, water resource management, urban forestry, biodiversity, open-space systems, land stock management, waste management, climate change, hazards and environmental impact assessment."
+              ]
+            },
+            {
+              "course_code": "MP205",
+              "course_title": "Urban Planning Studio",
+              "course_category": "studio",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Preparation of a master development plan for a city or city region; analysis of development plan concepts, data collection, field survey, collaborative/participatory framing of proposals, development policies, development control regulations, land-use plan and implementation mechanisms.",
+              "learning_coverage": [
+                "Preparation of a master development plan for a city or city region",
+                "analysis of development plan concepts, data collection, field survey, collaborative/participatory framing of proposals, development policies, development control regulations, land-use plan and implementation mechanisms"
+              ]
+            },
+            {
+              "course_code": "MP206",
+              "course_title": "Geoinformatics for Planning",
+              "course_category": "theory",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Remote sensing fundamentals, satellites, sensors, EMR, resolutions and satellite data; GIS concepts, spatial/non-spatial data, vector/raster models, georeferencing, projection, digitisation, thematic mapping, overlay, proximity, interpolation, network analysis, suitability analysis, DEM, slope/aspect and spatial database creation.",
+              "learning_coverage": [
+                "Remote sensing fundamentals, satellites, sensors, EMR, resolutions and satellite data",
+                "GIS concepts, spatial/non-spatial data, vector/raster models, georeferencing, projection, digitisation, thematic mapping, overlay, proximity, interpolation, network analysis, suitability analysis, DEM, slope/aspect and spatial database creation"
+              ]
+            },
+            {
+              "course_code": "MP207",
+              "course_title": "Sports and Yoga",
+              "course_category": "audit_course",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": true,
+              "coverage_summary": "Audit course on physical education, wellness and yoga; physical fitness, lifestyle, asanas, sports training, psychology, doping, sports medicine and practical activities for strength, flexibility, relaxation, concentration and health-related fitness.",
+              "learning_coverage": [
+                "Audit course on physical education, wellness and yoga",
+                "physical fitness, lifestyle, asanas, sports training, psychology, doping, sports medicine and practical activities for strength, flexibility, relaxation, concentration and health-related fitness"
+              ]
+            }
+          ]
+        },
+        {
+          "period_type": "semester",
+          "period_number": 3,
+          "period_label": "Semester III",
+          "courses": [
+            {
+              "course_code": "MP301",
+              "course_title": "Urban and Regional Governance",
+              "course_category": "theory",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Evolution of governance after 1947, organizations for planning/development/management, decentralization, 73rd and 74th Constitutional Amendments, District and Metropolitan Planning Committees, shift from government to governance, PPPs, third sector, land assembly, land administration and land records.",
+              "learning_coverage": [
+                "Evolution of governance after 1947, organizations for planning/development/management, decentralization, 73rd and 74th Constitutional Amendments, District and Metropolitan Planning Committees, shift from government to governance, PPPs, third sector, land assembly, land administration and land records."
+              ]
+            },
+            {
+              "course_code": "MP302",
+              "course_title": "Risk, Disaster Mitigation and Management",
+              "course_category": "professional_practice_and_management",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Disaster concepts, types, national/state policies and statutes, disaster management mechanisms, disaster-development linkages, INGOs/NGOs/CBOs/armed forces roles, community-based preparedness, natural/industrial/chemical/biological risks, land-use planning, building byelaws, early warning, climate change, rehabilitation and reconstruction.",
+              "learning_coverage": [
+                "Disaster concepts, types, national/state policies and statutes, disaster management mechanisms, disaster-development linkages, INGOs/NGOs/CBOs/armed forces roles, community-based preparedness, natural/industrial/chemical/biological risks, land-use planning, building byelaws, early warning, climate change, rehabilitation and reconstruction."
+              ]
+            },
+            {
+              "course_code": "MP303",
+              "course_title": "Dissertation-II",
+              "course_category": "research",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Literature review, research gap identification, topic selection, thesis statement and research questions; argument structure, validity, fallacies, modes of persuasion; technical report writing, proofreading/editing and research design with methods of primary data collection.",
+              "learning_coverage": [
+                "Literature review, research gap identification, topic selection, thesis statement and research questions",
+                "argument structure, validity, fallacies, modes of persuasion",
+                "technical report writing, proofreading/editing and research design with methods of primary data collection"
+              ]
+            },
+            {
+              "course_code": "MP304",
+              "course_title": "Regional Planning Studio",
+              "course_category": "studio",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Preparation of a regional, sub-regional, district or block development plan; integrated and balanced regional development, spatial planning, resource optimization, economic, environmental and social linkages, external/internal regional forces, and strategies for sustainable regional development.",
+              "learning_coverage": [
+                "Preparation of a regional, sub-regional, district or block development plan",
+                "integrated and balanced regional development, spatial planning, resource optimization, economic, environmental and social linkages, external/internal regional forces, and strategies for sustainable regional development"
+              ]
+            },
+            {
+              "course_code": "MP305",
+              "course_title": "Professional Elective-II: Parameters - Regional Planning; Processes and Principles",
+              "course_category": "elective",
+              "is_elective_or_optional": true,
+              "selected_option": "Parameters: Regional Planning; Processes and Principles",
+              "is_audit_course": false,
+              "coverage_summary": "Selected professional elective on regions as planning entities, regional interdependency and planning processes; types of regions, spatial planning, marginality, growth and development, dualism, dependency, spatial organization, centre-periphery, national planning framework, multilevel and integrated planning, regional analysis and regional development strategies.",
+              "learning_coverage": [
+                "Selected professional elective on regions as planning entities, regional interdependency and planning processes",
+                "types of regions, spatial planning, marginality, growth and development, dualism, dependency, spatial organization, centre-periphery, national planning framework, multilevel and integrated planning, regional analysis and regional development strategies"
+              ]
+            },
+            {
+              "course_code": "MP306",
+              "course_title": "Introduction to Philosophy",
+              "course_category": "audit_course",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": true,
+              "coverage_summary": "Philosophical inquiry into reality, free will, ethics and evidence; Indian and Western analytic philosophy, metaphysics, epistemology, ethics, mind, language, religion and science; knowledge production, logical analysis, empirical observation, great thinkers such as Plato, Descartes, Hume, Gandhi, Ambedkar, Sen, Rawls and Putnam.",
+              "learning_coverage": [
+                "Philosophical inquiry into reality, free will, ethics and evidence",
+                "Indian and Western analytic philosophy, metaphysics, epistemology, ethics, mind, language, religion and science",
+                "knowledge production, logical analysis, empirical observation, great thinkers such as Plato, Descartes, Hume, Gandhi, Ambedkar, Sen, Rawls and Putnam"
+              ]
+            }
+          ]
+        },
+        {
+          "period_type": "semester",
+          "period_number": 4,
+          "period_label": "Semester IV",
+          "courses": [
+            {
+              "course_code": "MP401",
+              "course_title": "Thesis",
+              "course_category": "thesis",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Independent postgraduate research grounded in deep literature review, theories and frameworks; formulation of research questions, connection with empirical evidence, contribution to new knowledge and demonstration of professional significance in planning.",
+              "learning_coverage": [
+                "Independent postgraduate research grounded in deep literature review, theories and frameworks",
+                "formulation of research questions, connection with empirical evidence, contribution to new knowledge and demonstration of professional significance in planning"
+              ]
+            },
+            {
+              "course_code": "MP402",
+              "course_title": "Planning Legislation and Planning Practice",
+              "course_category": "professional_practice_and_management",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Sources and concepts of law, constitutional implications for planning, statutory planning frameworks, town planning laws, 73rd/74th Amendments, environment/heritage/housing/real-estate/property/PPP and contract laws; planning practice, ethics, professional roles, permissions, court/public meeting cases, tenders, contracts, project proposals, professional fees and office administration.",
+              "learning_coverage": [
+                "Sources and concepts of law, constitutional implications for planning, statutory planning frameworks, town planning laws, 73rd/74th Amendments, environment/heritage/housing/real-estate/property/PPP and contract laws",
+                "planning practice, ethics, professional roles, permissions, court/public meeting cases, tenders, contracts, project proposals, professional fees and office administration"
+              ]
+            },
+            {
+              "course_code": "MP403",
+              "course_title": "Development Finance",
+              "course_category": "theory",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": false,
+              "coverage_summary": "Development finance, credit ratings, municipal/panchayat/development authority roles, finance commissions, municipal revenue, user charges, tax administration, PPP frameworks, risk/revenue sharing, betterment levy, impact fees, development charges, TDR, town planning schemes, asset monetisation, municipal bonds, pooled financing and project funding.",
+              "learning_coverage": [
+                "Development finance, credit ratings, municipal/panchayat/development authority roles, finance commissions, municipal revenue, user charges, tax administration, PPP frameworks, risk/revenue sharing, betterment levy, impact fees, development charges, TDR, town planning schemes, asset monetisation, municipal bonds, pooled financing and project funding."
+              ]
+            },
+            {
+              "course_code": "MP404",
+              "course_title": "Indian Constitution",
+              "course_category": "audit_course",
+              "is_elective_or_optional": false,
+              "selected_option": null,
+              "is_audit_course": true,
+              "coverage_summary": "Audit course on the making of the Constitution, Preamble, basic structure, Fundamental Rights and Duties, Directive Principles, Union and State governments, local administration, district administration, municipal corporation, zila panchayat and Election Commission.",
+              "learning_coverage": [
+                "Audit course on the making of the Constitution, Preamble, basic structure, Fundamental Rights and Duties, Directive Principles, Union and State governments, local administration, district administration, municipal corporation, zila panchayat and Election Commission."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "course_counts": {
+    "bachelor_of_architecture_courses": 48,
+    "master_of_planning_courses": 24,
+    "total_courses_or_subject_entries": 72
+  },
+  "competency_statement": {
+    "architecture": "Across the B.Arch curriculum, the candidate acquired architectural design capability from foundational composition and anthropometrics to housing, multi-storeyed buildings, urban design and thesis-level design resolution. The candidate also studied building construction, materials, structures, services, environmental performance, architectural history, graphics, digital tools, estimation, byelaws, management, professional practice and office training.",
+    "planning": "Across the M.Plan curriculum, the candidate developed planning competencies in history and theory, data and survey techniques, transport, housing, environment, metropolitan and regional planning, infrastructure, geoinformatics, urban governance, disaster management, planning law, development finance, research methods, urban and regional studios and thesis research. The selected electives add focused coverage of jurisprudence for planning, integrated urban ecosystem management and regional planning processes/principles."
+  },
+  "data_quality_notes": [
+    "General Proficiency entries are not treated as academic subjects.",
+    "M.Plan audit courses are included and marked with is_audit_course=true.",
+    "Elective rows are marked with is_elective_or_optional=true and include the candidate-selected option.",
+    "learning_coverage is generated by splitting the profile coverage summary into topic-level items for downstream parsing."
+  ]
+}
