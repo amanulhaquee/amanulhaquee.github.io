@@ -125,6 +125,7 @@
         .content-wrapper {
             position: relative;
             z-index: 1;
+            overflow-x: clip;
         }
 
         /* ============================================
@@ -250,7 +251,7 @@
             height: 100%;
             background: rgba(10, 15, 26, 0.95);
             backdrop-filter: blur(20px);
-            z-index: 999;
+            z-index: 1001;
             flex-direction: column;
             align-items: center;
             justify-content: center;
@@ -938,10 +939,12 @@
             gap: 1.5rem;
             overflow: hidden;
             position: relative;
-            width: 100vw;
+            width: 100%;
+            width: 100dvw;
             left: 50%;
             transform: translateX(-50%);
             padding: 2rem 0;
+            max-width: 100vw;
             background: linear-gradient(to bottom, transparent, rgba(16, 185, 129, 0.03), transparent);
         }
 
@@ -1559,8 +1562,24 @@
         }
 
         /* ============================================
-           RESPONSIVE DESIGN
+           RESPONSIVE DESIGN — Full Spectrum Coverage
            ============================================ */
+
+        /* ---------- Large Desktop (1200–1400px) ---------- */
+        @media (max-width: 1400px) {
+            .hero-container {
+                gap: 3rem;
+            }
+
+            .hero-image-container {
+                max-width: 460px;
+            }
+
+            .hero-stat-1 { right: -5%; }
+            .hero-stat-2 { left: -3%; }
+        }
+
+        /* ---------- Tablet Landscape / Small Desktop (≤1024px) ---------- */
         @media (max-width: 1024px) {
             .hero-container {
                 flex-direction: column;
@@ -1579,23 +1598,42 @@
                 justify-content: center;
             }
 
-            .hero-stat-1 { right: 5%; top: 5%; }
-            .hero-stat-2 { left: 5%; bottom: 10%; }
-            .hero-stat-3 { right: 10%; bottom: 2%; }
+            .hero-image-container {
+                max-width: 400px;
+            }
+
+            .hero-stat-float {
+                transform: scale(0.85);
+            }
+
+            .hero-stat-1 { right: 2%; top: 2%; }
+            .hero-stat-2 { left: 2%; bottom: 8%; }
+            .hero-stat-3 { right: 8%; bottom: 0%; }
 
             .about-grid {
                 grid-template-columns: 1fr;
+                gap: 3rem;
             }
 
             .contact-grid {
                 grid-template-columns: 1fr;
+                gap: 2.5rem;
             }
 
             .swiper-slide {
                 width: 340px;
             }
+
+            .modal-content {
+                max-width: 90vw;
+            }
+
+            .section-title {
+                font-size: clamp(1.7rem, 3.5vw, 2.5rem);
+            }
         }
 
+        /* ---------- Tablet Portrait (≤768px) ---------- */
         @media (max-width: 768px) {
             .nav-links {
                 display: none;
@@ -1606,25 +1644,57 @@
             }
 
             .hero {
-                padding-top: 6rem;
+                padding: 6rem 5% 3rem 5%;
                 min-height: auto;
             }
 
             .hero h1 {
-                font-size: 2.2rem;
+                font-size: clamp(2rem, 6vw, 2.5rem);
+                letter-spacing: -1px;
+            }
+
+            .hero-subtitle {
+                font-size: 1rem;
+                line-height: 1.7;
+            }
+
+            .hero-image-container {
+                max-width: 320px;
             }
 
             .hero-stat-float {
                 display: none;
             }
 
+            .hero-badge {
+                font-size: 0.72rem;
+                padding: 0.4rem 1rem;
+                margin-bottom: 1.5rem;
+            }
+
             .section {
-                padding: 4rem 5%;
+                padding: 3.5rem 5%;
+            }
+
+            .section-header {
+                margin-bottom: 2.5rem;
+            }
+
+            .section-subtitle {
+                font-size: 0.95rem;
+            }
+
+            .about-text h3 {
+                font-size: 1.5rem;
+            }
+
+            .about-text p {
+                font-size: 0.95rem;
             }
 
             .about-stats {
                 grid-template-columns: repeat(3, 1fr);
-                gap: 1rem;
+                gap: 0.8rem;
             }
 
             .stat-card {
@@ -1635,6 +1705,10 @@
                 font-size: 2rem;
             }
 
+            .stat-label {
+                font-size: 0.75rem;
+            }
+
             .toolkit-grid {
                 grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
             }
@@ -1643,9 +1717,16 @@
                 width: 300px;
             }
 
+            /* Modal — stacked layout on tablets */
+            .modal-overlay {
+                padding: 1rem;
+            }
+
             .modal-content {
                 flex-direction: column;
-                max-height: 95vh;
+                max-height: 92vh;
+                max-width: 100%;
+                border-radius: var(--radius-lg);
             }
 
             .modal-image-section {
@@ -1660,6 +1741,15 @@
                 font-size: 1.4rem;
             }
 
+            .modal-meta {
+                gap: 1rem;
+            }
+
+            .modal-meta-item {
+                font-size: 0.8rem;
+            }
+
+            /* Timeline — single column */
             .timeline::before {
                 left: 20px;
             }
@@ -1679,11 +1769,39 @@
                 margin: 0;
                 max-width: 100%;
             }
+
+            .timeline-item {
+                margin-bottom: 2rem;
+            }
+
+            /* Contact section */
+            .contact-info h3 {
+                font-size: 1.6rem;
+            }
+
+            .contact-cta-card {
+                padding: 2rem 1.5rem;
+            }
+
+            .contact-cta-card h4 {
+                font-size: 1.3rem;
+            }
+
+            /* Swiper navigation arrows — hide on touch */
+            .swiper-button-next,
+            .swiper-button-prev {
+                display: none !important;
+            }
         }
 
-        @media (max-width: 480px) {
+        /* ---------- Large Phone (≤640px) ---------- */
+        @media (max-width: 640px) {
             .hero h1 {
-                font-size: 1.9rem;
+                font-size: clamp(1.8rem, 7vw, 2.2rem);
+            }
+
+            .hero-image-container {
+                max-width: 280px;
             }
 
             .hero-buttons {
@@ -1694,15 +1812,684 @@
             .btn-primary, .btn-secondary {
                 width: 100%;
                 justify-content: center;
+                padding: 0.9rem 1.5rem;
+            }
+
+            .about-themes {
+                gap: 6px;
+            }
+
+            .theme-pill {
+                font-size: 0.72rem;
+                padding: 5px 12px;
+            }
+
+            .marquee-item {
+                padding: 0.6rem 1.2rem;
+                margin-right: 1rem;
+            }
+
+            .marquee-name {
+                font-size: 0.85rem;
+            }
+
+            .marquee-icon {
+                width: 20px;
+                height: 20px;
+            }
+
+            .project-card-image {
+                height: 180px;
+            }
+
+            .project-card-body {
+                padding: 1.2rem;
+            }
+
+            .project-card-title {
+                font-size: 1.05rem;
+            }
+
+            .project-card-desc {
+                font-size: 0.82rem;
+                -webkit-line-clamp: 2;
+            }
+
+            .project-tool-tag {
+                font-size: 0.68rem;
+                padding: 2px 8px;
+            }
+
+            /* Modal refinements */
+            .modal-image-section {
+                flex: 0 0 160px;
+            }
+
+            .modal-details-section {
+                padding: 1.2rem;
+            }
+
+            .modal-project-title {
+                font-size: 1.2rem;
+            }
+
+            .modal-abstract {
+                font-size: 0.85rem;
+                line-height: 1.7;
+            }
+
+            .modal-work-list li {
+                font-size: 0.82rem;
+            }
+
+            .modal-tool-chip {
+                font-size: 0.72rem;
+                padding: 4px 10px;
+            }
+
+            .modal-learning {
+                padding: 1rem;
+            }
+
+            .modal-learning p {
+                font-size: 0.82rem;
+            }
+
+            /* Timeline */
+            .timeline-degree {
+                font-size: 1.05rem;
+            }
+
+            .timeline-highlights li {
+                font-size: 0.75rem;
+            }
+
+            .timeline-card {
+                padding: 1.2rem;
+            }
+
+            .contact-link {
+                font-size: 0.88rem;
+            }
+
+            .footer p {
+                font-size: 0.78rem;
+            }
+        }
+
+        /* ---------- Medium Phone (≤480px) ---------- */
+        @media (max-width: 480px) {
+            html {
+                scroll-padding-top: 60px;
+            }
+
+            .navbar {
+                padding: 0.8rem 4%;
+            }
+
+            .nav-logo {
+                font-size: 1.1rem;
+                gap: 8px;
+            }
+
+            .nav-logo-icon {
+                width: 34px;
+                height: 34px;
+                font-size: 0.9rem;
+            }
+
+            .hero {
+                padding: 5rem 4% 2.5rem 4%;
+            }
+
+            .hero h1 {
+                font-size: clamp(1.6rem, 8vw, 2rem);
+                letter-spacing: -0.5px;
+            }
+
+            .hero-subtitle {
+                font-size: 0.9rem;
+                line-height: 1.6;
+                margin-bottom: 2rem;
+            }
+
+            .hero-image-container {
+                max-width: 240px;
+            }
+
+            .hero-image-glow {
+                width: 250px;
+                height: 250px;
+            }
+
+            .section {
+                padding: 3rem 4%;
+            }
+
+            .section-header {
+                margin-bottom: 2rem;
+            }
+
+            .section-label {
+                font-size: 0.75rem;
+                letter-spacing: 1.5px;
             }
 
             .about-stats {
-                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 0.6rem;
+            }
+
+            .stat-card {
+                padding: 1rem 0.5rem;
+                border-radius: var(--radius-md);
+            }
+
+            .stat-number {
+                font-size: 1.7rem;
+            }
+
+            .stat-label {
+                font-size: 0.7rem;
             }
 
             .toolkit-grid {
                 grid-template-columns: repeat(3, 1fr);
                 gap: 0.5rem;
+            }
+
+            .toolkit-category {
+                padding: 1.5rem;
+            }
+
+            .tool-card {
+                padding: 0.8rem 0.4rem;
+            }
+
+            .tool-icon {
+                width: 32px;
+                height: 32px;
+            }
+
+            .tool-icon img {
+                width: 28px;
+                height: 28px;
+            }
+
+            .tool-name {
+                font-size: 0.7rem;
+            }
+
+            .swiper-slide {
+                width: 270px;
+            }
+
+            /* Modal — full screen feel on small phones */
+            .modal-overlay {
+                padding: 0.5rem;
+            }
+
+            .modal-content {
+                border-radius: var(--radius-md);
+                max-height: 95vh;
+            }
+
+            .modal-close {
+                width: 36px;
+                height: 36px;
+                font-size: 1.1rem;
+                top: 10px;
+                right: 10px;
+            }
+
+            .modal-image-section {
+                flex: 0 0 140px;
+            }
+
+            .modal-details-section {
+                padding: 1rem;
+            }
+
+            .modal-project-type {
+                font-size: 0.7rem;
+            }
+
+            .modal-project-title {
+                font-size: 1.1rem;
+                margin-bottom: 0.8rem;
+            }
+
+            .modal-section-title {
+                font-size: 0.9rem;
+                margin-top: 1rem;
+            }
+
+            .modal-meta {
+                gap: 0.8rem;
+                margin-bottom: 1rem;
+                padding-bottom: 1rem;
+            }
+
+            .modal-meta-item {
+                font-size: 0.75rem;
+            }
+
+            /* Timeline */
+            .timeline-item,
+            .timeline-item:nth-child(even) {
+                padding-left: 40px;
+            }
+
+            .timeline-card {
+                padding: 1rem;
+            }
+
+            .timeline-year {
+                font-size: 0.7rem;
+            }
+
+            .timeline-degree {
+                font-size: 1rem;
+            }
+
+            .timeline-institution {
+                font-size: 0.78rem;
+            }
+
+            /* Contact */
+            .contact-info h3 {
+                font-size: 1.4rem;
+            }
+
+            .contact-info p {
+                font-size: 0.92rem;
+            }
+
+            .contact-cta-card {
+                padding: 1.5rem 1rem;
+                border-radius: var(--radius-lg);
+            }
+
+            .contact-cta-card h4 {
+                font-size: 1.15rem;
+            }
+
+            .contact-cta-card p {
+                font-size: 0.88rem;
+            }
+
+            .contact-link i {
+                width: 36px;
+                height: 36px;
+                font-size: 0.9rem;
+            }
+
+            /* Mobile nav overlay */
+            .mobile-nav-overlay a {
+                font-size: 1.3rem;
+            }
+        }
+
+        /* ---------- Small Phone (≤380px) ---------- */
+        @media (max-width: 380px) {
+            .hero {
+                padding: 4.5rem 3.5% 2rem 3.5%;
+            }
+
+            .hero h1 {
+                font-size: 1.5rem;
+            }
+
+            .hero-subtitle {
+                font-size: 0.85rem;
+            }
+
+            .hero-badge {
+                font-size: 0.65rem;
+                padding: 0.35rem 0.8rem;
+            }
+
+            .hero-image-container {
+                max-width: 200px;
+            }
+
+            .section {
+                padding: 2.5rem 3.5%;
+            }
+
+            .section-title {
+                font-size: 1.4rem;
+            }
+
+            .section-subtitle {
+                font-size: 0.85rem;
+            }
+
+            .about-text h3 {
+                font-size: 1.3rem;
+            }
+
+            .about-text p {
+                font-size: 0.88rem;
+            }
+
+            .about-stats {
+                grid-template-columns: repeat(3, 1fr);
+                gap: 0.4rem;
+            }
+
+            .stat-number {
+                font-size: 1.5rem;
+            }
+
+            .stat-label {
+                font-size: 0.65rem;
+            }
+
+            .stat-card {
+                padding: 0.8rem 0.3rem;
+            }
+
+            .swiper-slide {
+                width: 240px;
+            }
+
+            .project-card-image {
+                height: 150px;
+            }
+
+            .project-card-body {
+                padding: 1rem;
+            }
+
+            .project-card-title {
+                font-size: 0.95rem;
+            }
+
+            .btn-primary, .btn-secondary {
+                padding: 0.8rem 1.2rem;
+                font-size: 0.88rem;
+            }
+
+            .theme-pill {
+                font-size: 0.65rem;
+                padding: 4px 10px;
+            }
+
+            .toolkit-category {
+                padding: 1.2rem;
+            }
+
+            .toolkit-category-title {
+                font-size: 1rem;
+            }
+
+            .modal-image-section {
+                flex: 0 0 120px;
+            }
+
+            .modal-details-section {
+                padding: 0.8rem;
+            }
+
+            .modal-project-title {
+                font-size: 1rem;
+            }
+
+            .modal-tool-chip {
+                font-size: 0.65rem;
+                padding: 3px 8px;
+            }
+
+            .timeline-item,
+            .timeline-item:nth-child(even) {
+                padding-left: 35px;
+            }
+
+            .timeline::before {
+                left: 15px;
+            }
+
+            .timeline-dot {
+                left: 15px;
+                width: 12px;
+                height: 12px;
+            }
+
+            .timeline-card {
+                padding: 0.8rem;
+            }
+
+            .contact-link {
+                font-size: 0.82rem;
+            }
+
+            .contact-link i {
+                width: 32px;
+                height: 32px;
+            }
+        }
+
+        /* ---------- Extra Small Phone (≤320px) ---------- */
+        @media (max-width: 320px) {
+            .hero h1 {
+                font-size: 1.35rem;
+            }
+
+            .hero-subtitle {
+                font-size: 0.8rem;
+            }
+
+            .hero-image-container {
+                max-width: 180px;
+            }
+
+            .nav-logo {
+                font-size: 1rem;
+            }
+
+            .nav-logo-icon {
+                width: 30px;
+                height: 30px;
+                font-size: 0.8rem;
+            }
+
+            .section-title {
+                font-size: 1.25rem;
+            }
+
+            .about-stats {
+                grid-template-columns: 1fr 1fr 1fr;
+                gap: 0.3rem;
+            }
+
+            .stat-number {
+                font-size: 1.3rem;
+            }
+
+            .stat-card {
+                padding: 0.6rem 0.2rem;
+            }
+
+            .swiper-slide {
+                width: 220px;
+            }
+
+            .toolkit-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .project-card-tools {
+                gap: 4px;
+            }
+
+            .project-tool-tag {
+                font-size: 0.6rem;
+                padding: 2px 6px;
+            }
+
+            .modal-overlay {
+                padding: 0;
+            }
+
+            .modal-content {
+                border-radius: var(--radius-sm);
+                max-height: 100vh;
+            }
+
+            .modal-image-section {
+                flex: 0 0 100px;
+            }
+        }
+
+        /* ---------- Ultra-Wide Screens (≥1600px) ---------- */
+        @media (min-width: 1600px) {
+            .hero-container {
+                max-width: 1500px;
+            }
+
+            .section-container {
+                max-width: 1500px;
+            }
+
+            .hero h1 {
+                font-size: 5rem;
+            }
+
+            .hero-subtitle {
+                font-size: 1.25rem;
+                max-width: 580px;
+            }
+
+            .hero-image-container {
+                max-width: 580px;
+            }
+
+            .about-text h3 {
+                font-size: 2rem;
+            }
+        }
+
+        /* ---------- Landscape Phone (short viewport) ---------- */
+        @media (max-height: 500px) and (orientation: landscape) {
+            .hero {
+                min-height: auto;
+                padding: 5rem 5% 2rem 5%;
+            }
+
+            .hero-container {
+                flex-direction: row;
+                text-align: left;
+            }
+
+            .hero-image-container {
+                max-width: 250px;
+            }
+
+            .hero-buttons {
+                justify-content: flex-start;
+            }
+
+            .hero-subtitle {
+                margin: 0 0 1.5rem 0;
+            }
+
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+
+            .section {
+                padding: 2.5rem 5%;
+            }
+        }
+
+        /* ---------- Safe-area support for notched phones ---------- */
+        @supports (padding: env(safe-area-inset-bottom)) {
+            .navbar {
+                padding-left: max(5%, env(safe-area-inset-left));
+                padding-right: max(5%, env(safe-area-inset-right));
+            }
+
+            .hero {
+                padding-left: max(5%, env(safe-area-inset-left));
+                padding-right: max(5%, env(safe-area-inset-right));
+            }
+
+            .section {
+                padding-left: max(5%, env(safe-area-inset-left));
+                padding-right: max(5%, env(safe-area-inset-right));
+            }
+
+            .footer {
+                padding-bottom: max(2rem, env(safe-area-inset-bottom));
+            }
+        }
+
+        /* ---------- Improve touch targets on mobile ---------- */
+        @media (hover: none) and (pointer: coarse) {
+            .nav-cta {
+                padding: 0.7rem 1.6rem !important;
+            }
+
+            .mobile-menu-btn {
+                min-width: 44px;
+                min-height: 44px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .mobile-close-btn {
+                min-width: 44px;
+                min-height: 44px;
+            }
+
+            .contact-link {
+                padding: 0.5rem 0;
+            }
+
+            .modal-close {
+                width: 44px;
+                height: 44px;
+            }
+
+            .theme-pill {
+                padding: 8px 16px;
+            }
+
+            /* Disable hover-only effects on touch devices */
+            .project-card:hover {
+                transform: none;
+            }
+
+            .tool-card:hover {
+                transform: none;
+            }
+
+            .stat-card:hover {
+                transform: none;
+            }
+
+            .marquee-item:hover {
+                transform: none;
+            }
+        }
+
+        /* ---------- Reduced motion preference ---------- */
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+
+            html {
+                scroll-behavior: auto;
+            }
+
+            .reveal {
+                opacity: 1;
+                transform: none;
             }
         }
     </style>
